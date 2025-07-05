@@ -79,7 +79,7 @@ Now having everything set up, you can follow the experiment guide or jump to the
 
 ### Running tuning.py
 
-tuning.py script enables to perform tuning with SFT (Supervised Fine-Tuning) and DPO (Direct Policy Optimization).
+tuning.py script enables you to perform tuning with SFT (Supervised Fine-Tuning) and DPO (Direct Policy Optimization).
 
 It uses PEFT (Parameter Efficient Fine-tuning): a technique called low-rank adapters (LoRA) where only a smaller set of parameters (adapters) is trained to improve the model's performance
 
@@ -152,8 +152,8 @@ cd playpen
 nano model_rejistry.json
 ```
 
-In the opened model_rejistry.json, add your base model 4bit quantized model and the directory where 4bit PEFT adapters live.
-Pay attention of the correct EOS token you model is uses (in case of Llama, this is "<\\|eot_id\\|>"
+In the opened model_rejistry.json, add your base 4bit quantized model and the directory where your 4bit PEFT adapters live.
+Pay attention to the correct EOS token you model utilizes (in case of Llama 3.1 8B, this is "<\\|eot_id\\|>"
 
 For example:
 
@@ -176,7 +176,7 @@ For example:
       "use_fast": true
     },
     "model_config": {
-      "peft_model": "/home/users/rzorin/pm-25/Meta-Llama-3.1-8B-Instruct-bnb-4bit_finetuned_tulu-3-pref-personas-instruction-following", #this is the directory where the trained adapters live
+      "peft_model": "/home/users/rzorin/pm-25/Meta-Llama-3.1-8B-Instruct-bnb-4bit_finetuned_tulu-3-pref-personas-instruction-following", #this is the directory where your trained adapters live
       "requires_api_key": false,
       "premade_chat_template": true,
       "eos_to_cull": "<\\|eot_id\\|>"
@@ -187,19 +187,23 @@ For example:
 
 Secondly, you can now run evaluation on clembench. It can be done in two ways:
 
+#### First way of evaluation:
+
 ```bash
 clem run -g "{'benchmark':['2.0']}" -m llama3-8b-it-4bit-pref-pers-lora
 ```
 
 This will start the playing, which usually takes ~2 hours
 
-After the playin is finished use:
+After the playing is finished, use:
 ```bash
 clem score
 clem eval
 ```
 
-That forms the results directory with an .html file where the clembench score, averaged over all the games, is presented as well as clembench scores of single games.
+That forms the results directory with .html file where the clembench score, averaged over all the games, is presented as well as clembench scores of single games.
+
+#### Second way of evaluation:
 
 The second line of evaluation will give you the clembench score, averaged over all the games, and the so called statscore - an evaluation against other general benchmarks to be sure that you model has not overfitted towards games.
 
@@ -207,12 +211,11 @@ The second line of evaluation will give you the clembench score, averaged over a
 playpen eval llama3-8b-it-4bit-pref-pers-lora
 ```
 
-#### Baseline
+##### Baseline
 
-To estimate the results of your tuned model, you might want to compare the results against a relevant benchmark.
-Since your benchmark does not use any adapters, note that the model registry will look slightly differently.
+To estimate the results of your tuned model, you might want to compare the results against a relevant baseline.
 
-For example, in our case the baseline model is supposed to be unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit. Below is the right model_registry.json for this baseline:
+For example, in our case the baseline model is supposed to be unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit. Since now we do not use any PEFT adapters, note that the model registry will look slightly different:
 
 ```bash
 [
