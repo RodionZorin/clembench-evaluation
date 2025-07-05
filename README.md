@@ -99,12 +99,14 @@ After the tuning is finished, PEFT adapters of 4bit quantized model are saved to
 
 #### Config.yaml
 
+
 Config.yaml conveys all the essential parameters for tuning.
 Let's go through the config.yaml line by line
 
 Here is one of the possible examples of the config that utilizes DPO
 All the unnecessary for DPO lines are commented (but are not to be deleted!)
 
+```bash
 tuning:
   #type: sft #Supervised Fine-Tuning
   type: dpo #Direct Preference Optimization
@@ -113,7 +115,7 @@ base_model: #this is the model you want to tune. Note: in case of DPO this equal
   name: unsloth/Meta-Llama-3.1-8B-Instruct #since DPO is chosen above, this is a reference policy 
 
 sft_dataset: #used for sft tuning. For example: allenai/tulu-3-sft-mixture
-   name: not_used #since DPO is chosen above, an SFT dataset is not used
+  name: not_used #since DPO is chosen above, an SFT dataset is not used
 
 sft_model: #used for dpo tuning = policy we want to tune
   name: unsloth/Meta-Llama-3.1-8B-Instruct #policy we want to tune. Initially, coincides with the reference policy
@@ -138,7 +140,7 @@ training:
   max_training_steps: 700 #the number of steps the model is updated
   warmup_steps: 20
   beta: 0.1 #used only for dpo tuning, part of KL divergence
-
+```
 
 ### Evaluation of the Tuned Model on Clembench
 
@@ -155,6 +157,7 @@ Pay attention of the correct EOS token you model is uses (in case of Llama, this
 
 For example:
 
+```bash
 [
   {
     "model_name": "llama3-8b-it-4bit-pref-pers-lora", #this is the name you will use for an evaluation run, see below 
@@ -180,6 +183,7 @@ For example:
     }
   }
 ]
+```
 
 Secondly, you can now run evaluation on clembench. It can be done in two ways:
 
@@ -210,6 +214,7 @@ Since your benchmark does not use any adapters, note that the model registry wil
 
 For example, in our case the baseline model is supposed to be unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit. Below is the right model_registry.json for this baseline:
 
+```bash
 [
  {
     "model_name": "llama3-8b-it-4bit",
@@ -232,3 +237,4 @@ For example, in our case the baseline model is supposed to be unsloth/Meta-Llama
     }
   }
 ]
+```
