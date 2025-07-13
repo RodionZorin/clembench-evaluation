@@ -27,7 +27,7 @@ This command will:
 #### Installation of Playpen
 
 ```bash
-cd playpen
+cd clembench-evaluation/playpen
 ```
 Set up the Python environment. Note: Playpen requires Python 3.10+.
 
