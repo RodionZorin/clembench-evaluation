@@ -15,7 +15,7 @@ Clembench: Systematic Evaluation of Chat-Optimized Language Models as Conversati
 Playpen: an Environment for Learning in Interaction.
 
 ```bash
-git clone --recurse-submodules https://github.com/your-username/gemma-eval-project.git
+git clone --recurse-submodules https://github.com/RodionZorin/clembench-evaluation.git
 ```
 
 This command will:
