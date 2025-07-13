@@ -118,6 +118,9 @@ if tuning == 'sft':
 
     train_dataset = train_dataset.map(formatting_func, batched=True)
 
+    # Shuffle the dataset before training
+    train_dataset = train_dataset.shuffle(seed=42)
+
     run_wandb(base_model_name, sft_dataset_name, max_training_steps, lr, batch_size, grad_acc_steps, save_dir)
 
     trainer = SFTTrainer(
