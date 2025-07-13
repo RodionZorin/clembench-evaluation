@@ -1,0 +1,5990 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three words that start with the letter A."
+      },
+      {
+        "role": "assistant",
+        "content": "apple, ant, arrow"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Name an animal that starts with 'A'."
+      },
+      {
+        "role": "assistant",
+        "content": "Armadillo"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON with fields 'name' and 'age'. Do not include any other text in the form."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"name\": \"Alice\", \"age\": 25}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a dictionary with 'city' and 'country'. Do not include any other text in the form."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"city\": \"Rome\", \"country\": \"Italy\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Say YES if 'run' is both a noun and a verb."
+      },
+      {
+        "role": "assistant",
+        "content": "YES"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Say NO if 'stone' is not an adjective."
+      },
+      {
+        "role": "assistant",
+        "content": "NO"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'ANSWER:' followed by the name of a fruit. It has to be a single word."
+      },
+      {
+        "role": "assistant",
+        "content": "ANSWER: Mango"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with the tag 'RESULT:' and the number 64. It has to be a single number."
+      },
+      {
+        "role": "assistant",
+        "content": "RESULT: 64"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a sentence ending in 'soon'."
+      },
+      {
+        "role": "assistant",
+        "content": "They will return very soon."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Create a sentence that ends in 'today'."
+      },
+      {
+        "role": "assistant",
+        "content": "We begin our journey today."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a sentence of exactly five words."
+      },
+      {
+        "role": "assistant",
+        "content": "Time passes when coding intensely."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compose a six-word sentence about reading."
+      },
+      {
+        "role": "assistant",
+        "content": "Books help us grow each day."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond using only four-letter words."
+      },
+      {
+        "role": "assistant",
+        "content": "This test will move fast."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a list of words: apple, banana, cherry as a comma-separated list."
+      },
+      {
+        "role": "assistant",
+        "content": "apple, banana, cherry"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a question that can be answered with only yes or no."
+      },
+      {
+        "role": "assistant",
+        "content": "Is the sky blue?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag GO: DIRECTION with one of [north, south, east, west]."
+      },
+      {
+        "role": "assistant",
+        "content": "GO: west"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate an expression starting with 'Expression: ' to describe a red apple. Omit any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "Expression: the red apple on the table"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate an answer starting with 'Answer: ' to indicate the correct item. Omit any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "Answer: the blue bottle on the left"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a dictionary with 'language' and 'region'. Do not include any other text in the form."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"language\": \"Spanish\", \"region\": \"Europe\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'RESULT:' followed by the number 5. It has to be a single number."
+      },
+      {
+        "role": "assistant",
+        "content": "RESULT: 5"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a list of animals: cat, dog, rabbit as a comma-separated list."
+      },
+      {
+        "role": "assistant",
+        "content": "cat, dog, rabbit"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate an output that ends with the tag DONE. Omit any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "Final step executed. DONE"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate a phrase starting with 'Response: ' describing a red balloon. Omit any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "Response: a shiny red balloon floating"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag TURN: SIDE with one of [left, right]."
+      },
+      {
+        "role": "assistant",
+        "content": "TURN: right"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'ANSWER:' followed by the number of planets in the solar system. It has to be a single number."
+      },
+      {
+        "role": "assistant",
+        "content": "ANSWER: 8"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag ACTION: <move> with one of [jump, slide, run]."
+      },
+      {
+        "role": "assistant",
+        "content": "ACTION: run"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate an output that ends with the tag DONE. Include a meaningful message before the tag."
+      },
+      {
+        "role": "assistant",
+        "content": "Sequence completed successfully. DONE"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON with 'username' and 'status'. Do not include any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"username\": \"alice\", \"status\": \"active\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a dictionary with 'file' and 'size'. Do not include any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"file\": \"report.pdf\", \"size\": \"2MB\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Create a sentence that ends in 'tomorrow'."
+      },
+      {
+        "role": "assistant",
+        "content": "We will meet again tomorrow."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only words with three letters in your answer."
+      },
+      {
+        "role": "assistant",
+        "content": "The dog ran far."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a single color name."
+      },
+      {
+        "role": "assistant",
+        "content": "Blue."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag VALUE: followed by a decimal number. Do not add any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "VALUE: 3.14"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three fruits in a comma-separated format."
+      },
+      {
+        "role": "assistant",
+        "content": "apple, grape, kiwi"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about pets."
+      },
+      {
+        "role": "assistant",
+        "content": "Do you have a cat?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a response starting with 'Reply: ' describing a quiet forest. Omit any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "Reply: a still forest with mist"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag TURN: DIRECTION with a value from [left, right, straight]."
+      },
+      {
+        "role": "assistant",
+        "content": "TURN: left"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate an answer with the tag Response: followed by a one-word emotion."
+      },
+      {
+        "role": "assistant",
+        "content": "Response: joy"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with a one-word command that means to begin."
+      },
+      {
+        "role": "assistant",
+        "content": "Start"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a dictionary with 'task' and 'deadline'. Do not include any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"task\": \"write report\", \"deadline\": \"Monday\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag TIME: <hour> with an actual hour like '3pm'."
+      },
+      {
+        "role": "assistant",
+        "content": "TIME: 3pm"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Say YES only if 'sleep' is a verb and a noun."
+      },
+      {
+        "role": "assistant",
+        "content": "YES"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Say NO if 'green' is not a verb."
+      },
+      {
+        "role": "assistant",
+        "content": "NO"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a JSON with 'language' and 'level'. Do not include any extra text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"language\": \"German\", \"level\": \"A2\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag COMMAND: followed by a direction word. Only output one word after the tag."
+      },
+      {
+        "role": "assistant",
+        "content": "COMMAND: east"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate an expression starting with 'Observation: ' describing the moon. Omit any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "Observation: a bright moon in the sky"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about reading habits."
+      },
+      {
+        "role": "assistant",
+        "content": "Do you read every day?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three cities as a comma-separated list."
+      },
+      {
+        "role": "assistant",
+        "content": "Berlin, Tokyo, Paris"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a dictionary with keys 'input' and 'output'. Do not include any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"input\": \"signal\", \"output\": \"response\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with the tag 'KEY:' followed by a keyboard key."
+      },
+      {
+        "role": "assistant",
+        "content": "KEY: Enter"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag ACTION: MOTION with one of [walk, fly, crawl]."
+      },
+      {
+        "role": "assistant",
+        "content": "ACTION: fly"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Say YES if 'cook' can be both a noun and a verb."
+      },
+      {
+        "role": "assistant",
+        "content": "YES"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Say NO if 'beauty' cannot be used as a verb."
+      },
+      {
+        "role": "assistant",
+        "content": "NO"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Create a four-word sentence describing a computer."
+      },
+      {
+        "role": "assistant",
+        "content": "This machine runs quite fast."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "End your sentence with the tag FINISHED. Omit any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "Final instruction complete. FINISHED"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag LABEL: followed by a single-digit number."
+      },
+      {
+        "role": "assistant",
+        "content": "LABEL: 7"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a JSON object with 'color' and 'shape'. Do not add any extra text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"color\": \"blue\", \"shape\": \"circle\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a dictionary with 'title' and 'author'. Do not include any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"title\": \"1984\", \"author\": \"George Orwell\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three file extensions separated by commas."
+      },
+      {
+        "role": "assistant",
+        "content": ".txt, .pdf, .csv"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about transportation."
+      },
+      {
+        "role": "assistant",
+        "content": "Can a bike have gears?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a single-word action someone might perform."
+      },
+      {
+        "role": "assistant",
+        "content": "Jump"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the placeholder GOAL: <result> with a goal from [win, learn, survive]."
+      },
+      {
+        "role": "assistant",
+        "content": "GOAL: learn"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Data:' followed by a numeric string. Do not include anything else."
+      },
+      {
+        "role": "assistant",
+        "content": "Data: 1024"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Create a JSON with 'user' and 'score'. No extra text allowed."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"user\": \"player1\", \"score\": 42}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Say YES if 'light' has more than one meaning."
+      },
+      {
+        "role": "assistant",
+        "content": "YES"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Say NO if 'speed' cannot describe a person."
+      },
+      {
+        "role": "assistant",
+        "content": "NO"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with 'Output:' and the sum of 5 and 9. Only include the tag and result."
+      },
+      {
+        "role": "assistant",
+        "content": "Output: 14"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate a sentence that ends with 'everywhere'."
+      },
+      {
+        "role": "assistant",
+        "content": "Technology is spreading fast everywhere."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only even numbers in your answer, separated by commas."
+      },
+      {
+        "role": "assistant",
+        "content": "2, 4, 6"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a dictionary with 'host' and 'port'. Do not include any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"host\": \"localhost\", \"port\": 8080}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question involving music."
+      },
+      {
+        "role": "assistant",
+        "content": "Do you enjoy jazz music?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag SETTING: MODE with a value from [auto, manual]."
+      },
+      {
+        "role": "assistant",
+        "content": "SETTING: auto"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag ACTION: followed by one word from [scan, copy, print]."
+      },
+      {
+        "role": "assistant",
+        "content": "ACTION: scan"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate an output that ends in DONE. Include a reason before it."
+      },
+      {
+        "role": "assistant",
+        "content": "All tasks completed. DONE"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a five-word sentence about summer."
+      },
+      {
+        "role": "assistant",
+        "content": "The sun blazes all day."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond using the tag VALUE: followed by the number 42. Only include the tag and number."
+      },
+      {
+        "role": "assistant",
+        "content": "VALUE: 42"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a JSON object with keys 'name' and 'role'. Do not include anything else."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"name\": \"Eve\", \"role\": \"moderator\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a sentence that ends with 'clearly'."
+      },
+      {
+        "role": "assistant",
+        "content": "She spoke her thoughts clearly."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question involving travel."
+      },
+      {
+        "role": "assistant",
+        "content": "Have you visited Paris before?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only lowercase letters in your one-word answer."
+      },
+      {
+        "role": "assistant",
+        "content": "tiger"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate an expression starting with 'Summary: ' about a recent event. Omit any other text."
+      },
+      {
+        "role": "assistant",
+        "content": "Summary: the meeting went well"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag MOVE: with one option from [push, pull, twist]."
+      },
+      {
+        "role": "assistant",
+        "content": "MOVE: twist"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag STATE: followed by one US state. Do not include anything else."
+      },
+      {
+        "role": "assistant",
+        "content": "STATE: Oregon"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Say YES if 'run' has multiple grammatical forms."
+      },
+      {
+        "role": "assistant",
+        "content": "YES"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Say NO if 'smile' is used as a noun."
+      },
+      {
+        "role": "assistant",
+        "content": "NO"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about weather."
+      },
+      {
+        "role": "assistant",
+        "content": "Is it raining right now?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag TOOL: <device> with one of [drill, hammer, saw]."
+      },
+      {
+        "role": "assistant",
+        "content": "TOOL: hammer"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a JSON with 'error' and 'code'. Exclude any extra text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"error\": \"not found\", \"code\": 404}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a one-word synonym of 'begin'."
+      },
+      {
+        "role": "assistant",
+        "content": "Commence"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with 'Code:' followed by a postal code."
+      },
+      {
+        "role": "assistant",
+        "content": "Code: 90210"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question involving language."
+      },
+      {
+        "role": "assistant",
+        "content": "Is Spanish spoken in Mexico?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Step:' followed by the next action. Only one word."
+      },
+      {
+        "role": "assistant",
+        "content": "Step: build"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a six-word sentence involving coffee."
+      },
+      {
+        "role": "assistant",
+        "content": "Morning coffee warms the sleepy soul."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with only one punctuation mark."
+      },
+      {
+        "role": "assistant",
+        "content": "!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Input:' followed by a binary number."
+      },
+      {
+        "role": "assistant",
+        "content": "Input: 1011"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List two possible guesses for the clue 'Animal', one per line."
+      },
+      {
+        "role": "assistant",
+        "content": "Lion\nElephant"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide the next 3 steps to the destination, each on a new line."
+      },
+      {
+        "role": "assistant",
+        "content": "1. Turn left at the fork.\n2. Cross the red bridge.\n3. Climb the hill to the tower."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "I'll look around first. Wait until I ask for directions (no unsolicited hints)."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood. I'll be here when you need guidance."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give the final directions and end your answer with 'Destination reached.'."
+      },
+      {
+        "role": "assistant",
+        "content": "Go straight for 100\u202fm, then you will see a cabin on your left. Destination reached."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a description of the clue for the word airplane (forbidden words: fly, plane, wing)."
+      },
+      {
+        "role": "assistant",
+        "content": "It's a vehicle that carries people through the sky."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Describe a beach (forbidden words: sand, sea, sun)."
+      },
+      {
+        "role": "assistant",
+        "content": "It's a place by the water where people relax and play."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Enter your guess (single word):"
+      },
+      {
+        "role": "assistant",
+        "content": "CRANE"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word hint for your team (no extra words)."
+      },
+      {
+        "role": "assistant",
+        "content": "Ocean"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Player: How do I reach the castle? (Answer must begin with 'Route:')"
+      },
+      {
+        "role": "assistant",
+        "content": "Route: Head north to the crossroads, then turn east."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Guesser: Is it edible? (Please answer starting with 'Yes,' or 'No,')"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it is edible."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "System: Provide the path to the treasure as a JSON array of moves (N,S,E,W)."
+      },
+      {
+        "role": "assistant",
+        "content": "[\"N\", \"N\", \"E\", \"E\", \"S\"]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Game: Submit your next guess in JSON format with the key 'guess'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"guess\": \"CRANE\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You may only ask yes\u2013or\u2013no questions. Ask your next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Is it electronic?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only one-word clues are allowed. Give a single-word clue related to water."
+      },
+      {
+        "role": "assistant",
+        "content": "Ocean"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Codenames: You are the spymaster. Provide your clue prefaced by your role (e.g., 'Spymaster:')."
+      },
+      {
+        "role": "assistant",
+        "content": "Spymaster: Shadow 2"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "GuessWhat: You're now the guesser. Ask a question starting with 'Guesser:' as your role."
+      },
+      {
+        "role": "assistant",
+        "content": "Guesser: Is it bigger than a car?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes/no question about the target."
+      },
+      {
+        "role": "assistant",
+        "content": "Is it something you can eat?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You have reached the goal. Signal task completion."
+      },
+      {
+        "role": "assistant",
+        "content": "DONE"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You're the guide. Begin your response with 'Guide:'."
+      },
+      {
+        "role": "assistant",
+        "content": "Guide: Please take the northern path past the stone bridge."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Wait for further instructions before continuing. What do you say?"
+      },
+      {
+        "role": "assistant",
+        "content": "Waiting for your next command."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Describe the target in one unique, specific sentence."
+      },
+      {
+        "role": "assistant",
+        "content": "A red car with a broken taillight parked under a palm tree."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask only one question about the target."
+      },
+      {
+        "role": "assistant",
+        "content": "Is it alive?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'CLUE:' followed by a single word."
+      },
+      {
+        "role": "assistant",
+        "content": "CLUE: Voice"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word response only, no explanation."
+      },
+      {
+        "role": "assistant",
+        "content": "These"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Describe a beach without using the words sand, sea, or sun."
+      },
+      {
+        "role": "assistant",
+        "content": "It's a place where people relax near water and waves."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Considering we already ruled out animals, ask the next logical question."
+      },
+      {
+        "role": "assistant",
+        "content": "Is it a household object?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are on your final attempt. Make it count!"
+      },
+      {
+        "role": "assistant",
+        "content": "Address"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide your answer in a single sentence, nothing more."
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, I agree."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Matchit: List your next three guesses, one per line."
+      },
+      {
+        "role": "assistant",
+        "content": "rich\nthrow\nfly"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a JSON with keys 'temperature' and 'unit'. Do not include any extra text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"temperature\": 22, \"unit\": \"Celsius\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'ACTION:' followed by a single verb related to movement."
+      },
+      {
+        "role": "assistant",
+        "content": "ACTION: jump"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a five-word sentence about rain."
+      },
+      {
+        "role": "assistant",
+        "content": "Raindrops fall softly on leaves."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with only a one-word answer that expresses agreement."
+      },
+      {
+        "role": "assistant",
+        "content": "Yes"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Status:' followed by one word that describes a system."
+      },
+      {
+        "role": "assistant",
+        "content": "Status: active"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You may only respond using a number. Do not write anything else."
+      },
+      {
+        "role": "assistant",
+        "content": "42"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace <direction> with one of [up, down, left, right]."
+      },
+      {
+        "role": "assistant",
+        "content": "left"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a single punctuation mark only."
+      },
+      {
+        "role": "assistant",
+        "content": "?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three vegetables as a comma-separated list."
+      },
+      {
+        "role": "assistant",
+        "content": "carrot, potato, broccoli"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a dictionary with 'username' and 'email'. No extra text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"username\": \"user1\", \"email\": \"user1@example.com\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about space."
+      },
+      {
+        "role": "assistant",
+        "content": "Is the moon visible tonight?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word name of a profession."
+      },
+      {
+        "role": "assistant",
+        "content": "Engineer"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a sentence ending in 'carefully.'"
+      },
+      {
+        "role": "assistant",
+        "content": "She placed the glass down carefully."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes/no question about colors."
+      },
+      {
+        "role": "assistant",
+        "content": "Is red a primary color?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Submit a JSON with 'level' and 'score'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"level\": 3, \"score\": 1200}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'CLUE:' and a one-word hint for the category 'music'."
+      },
+      {
+        "role": "assistant",
+        "content": "CLUE: Melody"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate a sentence that ends with 'clearly.'"
+      },
+      {
+        "role": "assistant",
+        "content": "The instructions were written clearly."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only three-letter words to form a sentence."
+      },
+      {
+        "role": "assistant",
+        "content": "The cat ran out."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about animals."
+      },
+      {
+        "role": "assistant",
+        "content": "Can penguins swim?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "End your message with the word 'Complete.'"
+      },
+      {
+        "role": "assistant",
+        "content": "Step finished. Complete."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Start your response with 'Note:' followed by a short warning."
+      },
+      {
+        "role": "assistant",
+        "content": "Note: Watch out for slippery floors."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a JSON with 'name' and 'role'. No other text allowed."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"name\": \"Anna\", \"role\": \"guide\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word synonym for 'strong'."
+      },
+      {
+        "role": "assistant",
+        "content": "Robust"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Label:' followed by a category type."
+      },
+      {
+        "role": "assistant",
+        "content": "Label: vehicle"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a 6-word sentence about exploration."
+      },
+      {
+        "role": "assistant",
+        "content": "They journeyed across distant unknown lands."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three animals that live in water."
+      },
+      {
+        "role": "assistant",
+        "content": "dolphin, octopus, seal"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'NEXT:' followed by one step."
+      },
+      {
+        "role": "assistant",
+        "content": "NEXT: proceed"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag STEP: with a verb from [mix, bake, stir]."
+      },
+      {
+        "role": "assistant",
+        "content": "STEP: mix"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only one word to describe winter."
+      },
+      {
+        "role": "assistant",
+        "content": "Cold"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a dictionary with 'question' and 'answer'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"question\": \"Capital of France?\", \"answer\": \"Paris\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a list of three tools."
+      },
+      {
+        "role": "assistant",
+        "content": "hammer, wrench, screwdriver"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a question that can be answered with 'no'."
+      },
+      {
+        "role": "assistant",
+        "content": "Is fire cold?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON array of three fruit names."
+      },
+      {
+        "role": "assistant",
+        "content": "[\"apple\", \"banana\", \"cherry\"]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with 'Field:' followed by one type of science."
+      },
+      {
+        "role": "assistant",
+        "content": "Field: biology"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a sentence that ends in 'naturally.'"
+      },
+      {
+        "role": "assistant",
+        "content": "This process occurs slowly and naturally."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'TASK:' followed by a short task description."
+      },
+      {
+        "role": "assistant",
+        "content": "TASK: fill out the form"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about books."
+      },
+      {
+        "role": "assistant",
+        "content": "Is this a hardcover book?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a sentence using only four-letter words."
+      },
+      {
+        "role": "assistant",
+        "content": "Time goes fast with luck."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a response that ends with 'exactly.'"
+      },
+      {
+        "role": "assistant",
+        "content": "You need to follow the rules exactly."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word name of a country."
+      },
+      {
+        "role": "assistant",
+        "content": "Brazil"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Location:' followed by a room in a house."
+      },
+      {
+        "role": "assistant",
+        "content": "Location: kitchen"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'SCORE:' followed by a numeric value."
+      },
+      {
+        "role": "assistant",
+        "content": "SCORE: 98"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a valid JSON object with 'x' and 'y' coordinates."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"x\": 5, \"y\": 12}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer with a sentence ending in 'quickly.'"
+      },
+      {
+        "role": "assistant",
+        "content": "They left the building quickly."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with 'Mode:' followed by one of [auto, manual]."
+      },
+      {
+        "role": "assistant",
+        "content": "Mode: auto"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about cities."
+      },
+      {
+        "role": "assistant",
+        "content": "Is Berlin the capital of Germany?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only numbers in the response, separated by semicolons."
+      },
+      {
+        "role": "assistant",
+        "content": "1; 2; 3"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer using the tag 'Answer:' and a single letter."
+      },
+      {
+        "role": "assistant",
+        "content": "Answer: A"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a JSON with a 'status' key only."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"status\": \"done\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a dictionary with 'brand' and 'product'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"brand\": \"Apple\", \"product\": \"iPhone\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a 3-word description of a forest."
+      },
+      {
+        "role": "assistant",
+        "content": "Quiet, green, vast"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Guess:' followed by your best guess."
+      },
+      {
+        "role": "assistant",
+        "content": "Guess: bicycle"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with a one-word emotion."
+      },
+      {
+        "role": "assistant",
+        "content": "Joy"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only capital letters to answer."
+      },
+      {
+        "role": "assistant",
+        "content": "SUCCESS"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Start your reply with 'Info:' and include one fact."
+      },
+      {
+        "role": "assistant",
+        "content": "Info: Water boils at 100\u00b0C."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word command for a robot."
+      },
+      {
+        "role": "assistant",
+        "content": "Start"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a list of planets."
+      },
+      {
+        "role": "assistant",
+        "content": "Mercury, Venus, Earth"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a list of three programming languages."
+      },
+      {
+        "role": "assistant",
+        "content": "Python, JavaScript, Rust"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'Category:' and a movie genre."
+      },
+      {
+        "role": "assistant",
+        "content": "Category: thriller"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with only a numeric value for height in cm."
+      },
+      {
+        "role": "assistant",
+        "content": "180"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a dictionary with keys 'title' and 'genre'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"title\": \"Inception\", \"genre\": \"Sci-Fi\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Metric:' followed by a performance measure."
+      },
+      {
+        "role": "assistant",
+        "content": "Metric: speed"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a short sentence about space."
+      },
+      {
+        "role": "assistant",
+        "content": "Stars shine brightly at night."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a list of three shapes."
+      },
+      {
+        "role": "assistant",
+        "content": "circle, square, triangle"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only lowercase letters to name a city."
+      },
+      {
+        "role": "assistant",
+        "content": "london"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about programming."
+      },
+      {
+        "role": "assistant",
+        "content": "Is Python a programming language?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Start your response with 'Agent:' and suggest a strategy."
+      },
+      {
+        "role": "assistant",
+        "content": "Agent: Observe before acting."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Clue:' followed by a one-word hint."
+      },
+      {
+        "role": "assistant",
+        "content": "Clue: Frozen"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a sentence that ends with 'early.'"
+      },
+      {
+        "role": "assistant",
+        "content": "They arrived at the station early."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply using 'Output:' and a short phrase."
+      },
+      {
+        "role": "assistant",
+        "content": "Output: task complete"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON object with 'user_id' and 'session_id'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"user_id\": 123, \"session_id\": \"abc456\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word name of a body part."
+      },
+      {
+        "role": "assistant",
+        "content": "Elbow"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List two ways to travel, separated by slashes."
+      },
+      {
+        "role": "assistant",
+        "content": "train / bus"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Signal:' followed by a one-word status."
+      },
+      {
+        "role": "assistant",
+        "content": "Signal: clear"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer with the square root of 144."
+      },
+      {
+        "role": "assistant",
+        "content": "12"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Create a sentence using the word 'strategy'."
+      },
+      {
+        "role": "assistant",
+        "content": "Our strategy relies on collaboration."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a three-letter acronym for a space agency."
+      },
+      {
+        "role": "assistant",
+        "content": "NASA"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only digits in your response."
+      },
+      {
+        "role": "assistant",
+        "content": "2048"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a list of months that start with J."
+      },
+      {
+        "role": "assistant",
+        "content": "January, June, July"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with a single word that describes the desert."
+      },
+      {
+        "role": "assistant",
+        "content": "Arid"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with 'Code:' followed by a short passcode."
+      },
+      {
+        "role": "assistant",
+        "content": "Code: 7Y4K"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON with a key 'valid' set to true."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"valid\": true}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Hint:' followed by a location."
+      },
+      {
+        "role": "assistant",
+        "content": "Hint: mountain"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a dictionary with keys 'question' and 'choices'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"question\": \"Best fruit?\", \"choices\": [\"apple\", \"banana\", \"cherry\"]}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about pets."
+      },
+      {
+        "role": "assistant",
+        "content": "Do cats sleep a lot?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Step:' followed by one action word."
+      },
+      {
+        "role": "assistant",
+        "content": "Step: fold"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a math expression result: 9 * 8 ="
+      },
+      {
+        "role": "assistant",
+        "content": "72"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word feeling about success."
+      },
+      {
+        "role": "assistant",
+        "content": "Proud"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'ROUND:' followed by a round number."
+      },
+      {
+        "role": "assistant",
+        "content": "ROUND: 3"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Start your response with 'Turn:' followed by a direction."
+      },
+      {
+        "role": "assistant",
+        "content": "Turn: left"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer with a programming concept."
+      },
+      {
+        "role": "assistant",
+        "content": "Variable"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a one-word description of summer."
+      },
+      {
+        "role": "assistant",
+        "content": "Hot"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a list of three continents."
+      },
+      {
+        "role": "assistant",
+        "content": "Asia, Europe, Africa"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer using a color associated with envy."
+      },
+      {
+        "role": "assistant",
+        "content": "Green"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with 'Choice:' followed by a letter A\u2013D."
+      },
+      {
+        "role": "assistant",
+        "content": "Choice: B"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only the word that matches the number 1000."
+      },
+      {
+        "role": "assistant",
+        "content": "Thousand"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with the next prime number after 17."
+      },
+      {
+        "role": "assistant",
+        "content": "19"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a short phrase about teamwork."
+      },
+      {
+        "role": "assistant",
+        "content": "Together everyone achieves more."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about cooking."
+      },
+      {
+        "role": "assistant",
+        "content": "Do you add salt to pasta?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag RESULT: followed by a percentage value. No other text."
+      },
+      {
+        "role": "assistant",
+        "content": "RESULT: 95%"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with one color, in lowercase only."
+      },
+      {
+        "role": "assistant",
+        "content": "orange"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word answer that describes happiness."
+      },
+      {
+        "role": "assistant",
+        "content": "Joy"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three tools used in carpentry."
+      },
+      {
+        "role": "assistant",
+        "content": "saw, hammer, chisel"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON with keys 'device' and 'model'. No comments."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"device\": \"phone\", \"model\": \"X10\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Start your sentence with 'Message:' followed by a greeting."
+      },
+      {
+        "role": "assistant",
+        "content": "Message: Good morning!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag ALERT: and a one-word danger warning."
+      },
+      {
+        "role": "assistant",
+        "content": "ALERT: flood"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return only a numeric code of four digits."
+      },
+      {
+        "role": "assistant",
+        "content": "2024"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Task:' followed by a brief assignment description."
+      },
+      {
+        "role": "assistant",
+        "content": "Task: clean the lab"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a one-word body part."
+      },
+      {
+        "role": "assistant",
+        "content": "Hand"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about memory."
+      },
+      {
+        "role": "assistant",
+        "content": "Is RAM volatile memory?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply using the tag OUTPUT: and a measurement."
+      },
+      {
+        "role": "assistant",
+        "content": "OUTPUT: 5kg"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "End your sentence with the word 'urgently.'"
+      },
+      {
+        "role": "assistant",
+        "content": "Please respond to the email urgently."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Label:' followed by one of [urgent, normal, low]."
+      },
+      {
+        "role": "assistant",
+        "content": "Label: urgent"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a dictionary with 'name' and 'occupation'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"name\": \"Bob\", \"occupation\": \"driver\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about robots."
+      },
+      {
+        "role": "assistant",
+        "content": "Do robots use sensors?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a JSON with 'score' as a float and 'passed' as a boolean."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"score\": 92.5, \"passed\": true}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only a prime number in your reply."
+      },
+      {
+        "role": "assistant",
+        "content": "17"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three cities starting with 'S'."
+      },
+      {
+        "role": "assistant",
+        "content": "Seattle, Seoul, Sydney"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond using only lowercase and one fruit name."
+      },
+      {
+        "role": "assistant",
+        "content": "banana"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag MESSAGE: and a two-word response."
+      },
+      {
+        "role": "assistant",
+        "content": "MESSAGE: system ready"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a sentence that ends in 'safely.'"
+      },
+      {
+        "role": "assistant",
+        "content": "The crew returned home safely."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a short phrase that ends in 'now.'"
+      },
+      {
+        "role": "assistant",
+        "content": "You can speak now."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List two kinds of transportation separated by slashes."
+      },
+      {
+        "role": "assistant",
+        "content": "car/train"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about animals' diet."
+      },
+      {
+        "role": "assistant",
+        "content": "Are pandas herbivores?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Code:' followed by a two-letter abbreviation."
+      },
+      {
+        "role": "assistant",
+        "content": "Code: NY"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a question about time in the future tense."
+      },
+      {
+        "role": "assistant",
+        "content": "Will the event start on time?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only even digits, no words."
+      },
+      {
+        "role": "assistant",
+        "content": "4682"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON with fields 'duration' and 'unit'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"duration\": 30, \"unit\": \"minutes\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with a single punctuation mark that expresses uncertainty."
+      },
+      {
+        "role": "assistant",
+        "content": "?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question involving chemistry."
+      },
+      {
+        "role": "assistant",
+        "content": "Is H2O a compound?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a one-word command associated with urgency."
+      },
+      {
+        "role": "assistant",
+        "content": "Run"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag FLAG: followed by a one-word state."
+      },
+      {
+        "role": "assistant",
+        "content": "FLAG: idle"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a three-word summary of today's weather."
+      },
+      {
+        "role": "assistant",
+        "content": "Cloudy, cool, breezy"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return only the value of pi to 2 decimals."
+      },
+      {
+        "role": "assistant",
+        "content": "3.14"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace <animal> with a mammal name."
+      },
+      {
+        "role": "assistant",
+        "content": "Elephant"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the format 'Phase: [step]' to describe a process stage."
+      },
+      {
+        "role": "assistant",
+        "content": "Phase: testing"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word job that starts with D."
+      },
+      {
+        "role": "assistant",
+        "content": "Dentist"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with the number of legs a spider has."
+      },
+      {
+        "role": "assistant",
+        "content": "8"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Warning:' and one word from [fire, ice, flood]."
+      },
+      {
+        "role": "assistant",
+        "content": "Warning: fire"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a list of file formats."
+      },
+      {
+        "role": "assistant",
+        "content": ".jpg, .png, .docx"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Start your reply with 'Result:' and a single-digit."
+      },
+      {
+        "role": "assistant",
+        "content": "Result: 3"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about water."
+      },
+      {
+        "role": "assistant",
+        "content": "Does ice float on water?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Mark:' followed by a school grade."
+      },
+      {
+        "role": "assistant",
+        "content": "Mark: A"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a sentence using 'gravity'."
+      },
+      {
+        "role": "assistant",
+        "content": "Gravity keeps us grounded."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a dictionary with 'type' and 'status'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"email\", \"status\": \"unread\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with a math operation result: 12 - 5 ="
+      },
+      {
+        "role": "assistant",
+        "content": "7"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag FINAL: to mark a concluding step."
+      },
+      {
+        "role": "assistant",
+        "content": "FINAL: shutdown"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three programming libraries."
+      },
+      {
+        "role": "assistant",
+        "content": "NumPy, Pandas, Matplotlib"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about cooking times."
+      },
+      {
+        "role": "assistant",
+        "content": "Does rice take 15 minutes?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a color associated with caution."
+      },
+      {
+        "role": "assistant",
+        "content": "Yellow"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON with 'level' and 'alert'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"level\": \"high\", \"alert\": \"system\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word description of ice."
+      },
+      {
+        "role": "assistant",
+        "content": "Cold"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Init:' followed by a process name."
+      },
+      {
+        "role": "assistant",
+        "content": "Init: backup"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about electronics."
+      },
+      {
+        "role": "assistant",
+        "content": "Is a diode directional?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return only the result of 7 multiplied by 6."
+      },
+      {
+        "role": "assistant",
+        "content": "42"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three dessert items, comma-separated."
+      },
+      {
+        "role": "assistant",
+        "content": "cake, pie, ice cream"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a four-letter word that means 'stop'."
+      },
+      {
+        "role": "assistant",
+        "content": "Halt"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Start with 'Query:' followed by a database field."
+      },
+      {
+        "role": "assistant",
+        "content": "Query: user_id"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a numeric string of length 5."
+      },
+      {
+        "role": "assistant",
+        "content": "84329"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Temp:' followed by a number and unit C."
+      },
+      {
+        "role": "assistant",
+        "content": "Temp: 21\u00b0C"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three musical instruments."
+      },
+      {
+        "role": "assistant",
+        "content": "violin, trumpet, piano"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a yes-or-no question about electricity."
+      },
+      {
+        "role": "assistant",
+        "content": "Is copper conductive?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'DATA:' followed by a sequence of digits."
+      },
+      {
+        "role": "assistant",
+        "content": "DATA: 8743"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON array of digits."
+      },
+      {
+        "role": "assistant",
+        "content": "[1, 2, 3]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with 'Step:' and an action verb."
+      },
+      {
+        "role": "assistant",
+        "content": "Step: align"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a three-word phrase describing teamwork."
+      },
+      {
+        "role": "assistant",
+        "content": "Collaborate, communicate, deliver"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a question related to file storage."
+      },
+      {
+        "role": "assistant",
+        "content": "Can this file be compressed?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Choice:' followed by a letter from A\u2013D."
+      },
+      {
+        "role": "assistant",
+        "content": "Choice: D"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a single word describing lightning."
+      },
+      {
+        "role": "assistant",
+        "content": "Electric"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with a short phrase ending in 'efficiently.'"
+      },
+      {
+        "role": "assistant",
+        "content": "They completed the task efficiently."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Port:' and a valid network port number."
+      },
+      {
+        "role": "assistant",
+        "content": "Port: 443"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three countries from Asia."
+      },
+      {
+        "role": "assistant",
+        "content": "India, Japan, Thailand"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON object with one string and one boolean."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"active\": true, \"name\": \"test\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about vision."
+      },
+      {
+        "role": "assistant",
+        "content": "Can humans see UV light?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only one measurement unit."
+      },
+      {
+        "role": "assistant",
+        "content": "meters"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with a single-digit prime number."
+      },
+      {
+        "role": "assistant",
+        "content": "5"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Bot:' followed by a status report."
+      },
+      {
+        "role": "assistant",
+        "content": "Bot: scanning"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short directive for a robot."
+      },
+      {
+        "role": "assistant",
+        "content": "Turn right."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with only an even number."
+      },
+      {
+        "role": "assistant",
+        "content": "28"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a list of three cloud types."
+      },
+      {
+        "role": "assistant",
+        "content": "cumulus, stratus, cirrus"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about coffee."
+      },
+      {
+        "role": "assistant",
+        "content": "Is espresso stronger than drip?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Range:' followed by two numbers."
+      },
+      {
+        "role": "assistant",
+        "content": "Range: 10\u201350"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a dictionary with 'city' and 'population'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"city\": \"Madrid\", \"population\": 3200000}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a question about language origins."
+      },
+      {
+        "role": "assistant",
+        "content": "Is Latin the root of French?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return only a unit of digital storage."
+      },
+      {
+        "role": "assistant",
+        "content": "gigabyte"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply using 'KEY:' and a keyboard key name."
+      },
+      {
+        "role": "assistant",
+        "content": "KEY: Escape"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag NOTE: with a one-line reminder."
+      },
+      {
+        "role": "assistant",
+        "content": "NOTE: Save your work."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a four-digit year."
+      },
+      {
+        "role": "assistant",
+        "content": "2022"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three aquatic animals."
+      },
+      {
+        "role": "assistant",
+        "content": "whale, dolphin, shark"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a single punctuation that denotes a pause."
+      },
+      {
+        "role": "assistant",
+        "content": ","
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a sentence about time ending in 'regularly.'"
+      },
+      {
+        "role": "assistant",
+        "content": "She exercises regularly."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Alert:' and one of [red, yellow, green]."
+      },
+      {
+        "role": "assistant",
+        "content": "Alert: red"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a one-word clue related to ice."
+      },
+      {
+        "role": "assistant",
+        "content": "Frozen"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a math equation with its result."
+      },
+      {
+        "role": "assistant",
+        "content": "5 + 4 = 9"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Time:' and a format HH:MM."
+      },
+      {
+        "role": "assistant",
+        "content": "Time: 16:45"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three planets not including Earth."
+      },
+      {
+        "role": "assistant",
+        "content": "Mars, Jupiter, Neptune"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a question about safety equipment."
+      },
+      {
+        "role": "assistant",
+        "content": "Is a helmet required?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'State:' followed by a capital city."
+      },
+      {
+        "role": "assistant",
+        "content": "State: Paris"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a three-step instruction list, numbered."
+      },
+      {
+        "role": "assistant",
+        "content": "1. Open the lid.\n2. Insert the cartridge.\n3. Close the lid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word response that means silent."
+      },
+      {
+        "role": "assistant",
+        "content": "Quiet"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag MODE: followed by either 'auto' or 'manual'."
+      },
+      {
+        "role": "assistant",
+        "content": "MODE: manual"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Submit a JSON with 'key' and 'value'. No extra text."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"key\": \"alpha\", \"value\": 42}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about history."
+      },
+      {
+        "role": "assistant",
+        "content": "Was the Roman Empire large?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return the square of 9."
+      },
+      {
+        "role": "assistant",
+        "content": "81"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Alert:' followed by a one-word warning about danger."
+      },
+      {
+        "role": "assistant",
+        "content": "Alert: fire"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a lowercase animal name, only one word."
+      },
+      {
+        "role": "assistant",
+        "content": "lion"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag TOOL: with an item from [screwdriver, pliers, wrench]."
+      },
+      {
+        "role": "assistant",
+        "content": "TOOL: pliers"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a single yes-or-no question about movies."
+      },
+      {
+        "role": "assistant",
+        "content": "Is Inception a sci-fi film?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "End your sentence with the word 'successfully.'"
+      },
+      {
+        "role": "assistant",
+        "content": "They completed the experiment successfully."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a question that could be answered with 'No'."
+      },
+      {
+        "role": "assistant",
+        "content": "Is the Earth flat?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a single-digit number."
+      },
+      {
+        "role": "assistant",
+        "content": "7"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a JSON with fields 'latitude' and 'longitude'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"latitude\": 40.7128, \"longitude\": -74.0060}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word response that is a direction."
+      },
+      {
+        "role": "assistant",
+        "content": "North"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about transportation."
+      },
+      {
+        "role": "assistant",
+        "content": "Is the metro faster than a bus?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag TASK: followed by a one-word verb."
+      },
+      {
+        "role": "assistant",
+        "content": "TASK: report"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON object with 'version' and 'status'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"version\": \"1.0.3\", \"status\": \"active\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with a one-word food item."
+      },
+      {
+        "role": "assistant",
+        "content": "Bread"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace <weather> with a word from [rainy, sunny, cloudy]."
+      },
+      {
+        "role": "assistant",
+        "content": "sunny"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Metric:' and one value from [speed, accuracy, efficiency]."
+      },
+      {
+        "role": "assistant",
+        "content": "Metric: efficiency"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return the value of 6 squared."
+      },
+      {
+        "role": "assistant",
+        "content": "36"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a sentence about wind ending in 'strongly.'"
+      },
+      {
+        "role": "assistant",
+        "content": "The trees swayed strongly."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a question about light in the present tense."
+      },
+      {
+        "role": "assistant",
+        "content": "Is light faster than sound?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON with only one field: 'confirmed': true"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"confirmed\": true}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a single number representing the boiling point of water in Celsius."
+      },
+      {
+        "role": "assistant",
+        "content": "100"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Result:' and a pass/fail status."
+      },
+      {
+        "role": "assistant",
+        "content": "Result: pass"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about machines."
+      },
+      {
+        "role": "assistant",
+        "content": "Can a robot vacuum navigate rooms?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a color name that starts with 'B'."
+      },
+      {
+        "role": "assistant",
+        "content": "Blue"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word answer that means 'fast'."
+      },
+      {
+        "role": "assistant",
+        "content": "Quick"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a two-sentence message about safety."
+      },
+      {
+        "role": "assistant",
+        "content": "Wear your helmet. Be alert."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag ACTION: <command> with one of [jump, crouch]."
+      },
+      {
+        "role": "assistant",
+        "content": "ACTION: crouch"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a math result: 50 divided by 5 ="
+      },
+      {
+        "role": "assistant",
+        "content": "10"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Data:' and a string containing 5 letters."
+      },
+      {
+        "role": "assistant",
+        "content": "Data: QWERT"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a list of three programming paradigms."
+      },
+      {
+        "role": "assistant",
+        "content": "object-oriented, functional, procedural"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "End your message with 'Confirmed.'"
+      },
+      {
+        "role": "assistant",
+        "content": "Setup is complete. Confirmed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three planets in order from the sun."
+      },
+      {
+        "role": "assistant",
+        "content": "Mercury, Venus, Earth"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a number between 1 and 10 inclusive."
+      },
+      {
+        "role": "assistant",
+        "content": "6"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a short phrase that ends in 'smoothly.'"
+      },
+      {
+        "role": "assistant",
+        "content": "The engine runs smoothly."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'CLUE:' followed by one abstract noun."
+      },
+      {
+        "role": "assistant",
+        "content": "CLUE: honesty"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about air travel."
+      },
+      {
+        "role": "assistant",
+        "content": "Do airplanes fly at high altitudes?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with one punctuation mark that ends a sentence."
+      },
+      {
+        "role": "assistant",
+        "content": "."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a five-character alphanumeric code."
+      },
+      {
+        "role": "assistant",
+        "content": "X7A4C"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short line describing snow without using 'white'."
+      },
+      {
+        "role": "assistant",
+        "content": "It blankets the ground silently."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag STATUS: with a one-word system state."
+      },
+      {
+        "role": "assistant",
+        "content": "STATUS: rebooting"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON with 'checked' set to false."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"checked\": false}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word synonym for 'happy'."
+      },
+      {
+        "role": "assistant",
+        "content": "Glad"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about animals and behavior."
+      },
+      {
+        "role": "assistant",
+        "content": "Do dolphins communicate with sounds?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Output:' and a percentage value."
+      },
+      {
+        "role": "assistant",
+        "content": "Output: 89%"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a binary number of 4 digits."
+      },
+      {
+        "role": "assistant",
+        "content": "1101"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with 'Mode:' and a mode from [safe, debug, production]."
+      },
+      {
+        "role": "assistant",
+        "content": "Mode: debug"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word question starting word."
+      },
+      {
+        "role": "assistant",
+        "content": "Why"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond using only a mathematical symbol."
+      },
+      {
+        "role": "assistant",
+        "content": "+"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a sentence about heat ending in 'quickly.'"
+      },
+      {
+        "role": "assistant",
+        "content": "Heat spread through the room quickly."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three body parts."
+      },
+      {
+        "role": "assistant",
+        "content": "arm, leg, head"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a short definition for 'cloud'."
+      },
+      {
+        "role": "assistant",
+        "content": "A visible mass of condensed water vapor."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about Mars."
+      },
+      {
+        "role": "assistant",
+        "content": "Is Mars called the red planet?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag TYPE: followed by one of [integer, string]."
+      },
+      {
+        "role": "assistant",
+        "content": "TYPE: string"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a sentence about reading that ends in 'daily.'"
+      },
+      {
+        "role": "assistant",
+        "content": "She reads mystery novels daily."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a two-word phrase describing cold weather."
+      },
+      {
+        "role": "assistant",
+        "content": "Freezing winds"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a list of fruits using JSON array format."
+      },
+      {
+        "role": "assistant",
+        "content": "[\"apple\", \"peach\", \"grape\"]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a command that begins with 'Execute:'"
+      },
+      {
+        "role": "assistant",
+        "content": "Execute: compile"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only a three-digit number in your answer."
+      },
+      {
+        "role": "assistant",
+        "content": "314"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a question about seasons."
+      },
+      {
+        "role": "assistant",
+        "content": "Is winter colder than spring?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List two hobbies separated by a slash."
+      },
+      {
+        "role": "assistant",
+        "content": "painting/dancing"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Label:' followed by one of [test, live]."
+      },
+      {
+        "role": "assistant",
+        "content": "Label: test"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about books."
+      },
+      {
+        "role": "assistant",
+        "content": "Is '1984' written by Orwell?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with one of [true, false]."
+      },
+      {
+        "role": "assistant",
+        "content": "true"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a lowercase name of a fruit."
+      },
+      {
+        "role": "assistant",
+        "content": "kiwi"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a sentence ending in 'gently.'"
+      },
+      {
+        "role": "assistant",
+        "content": "He closed the door gently."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON with key 'attempts' and value 3."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"attempts\": 3}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'CLUE:' followed by a single color."
+      },
+      {
+        "role": "assistant",
+        "content": "CLUE: red"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with one country name in uppercase."
+      },
+      {
+        "role": "assistant",
+        "content": "CANADA"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a one-word synonym for 'begin'."
+      },
+      {
+        "role": "assistant",
+        "content": "Start"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about color perception."
+      },
+      {
+        "role": "assistant",
+        "content": "Can dogs see in color?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag TEMP: with a Celsius temperature."
+      },
+      {
+        "role": "assistant",
+        "content": "TEMP: 23\u00b0C"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Output a one-digit odd number."
+      },
+      {
+        "role": "assistant",
+        "content": "9"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'STATE:' followed by a US state name."
+      },
+      {
+        "role": "assistant",
+        "content": "STATE: Texas"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a synonym for 'large' in one word."
+      },
+      {
+        "role": "assistant",
+        "content": "Huge"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question involving numbers."
+      },
+      {
+        "role": "assistant",
+        "content": "Is 5 a prime number?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Phase:' and one step of development."
+      },
+      {
+        "role": "assistant",
+        "content": "Phase: testing"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON object with 'user' and 'active': true."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"user\": \"admin\", \"active\": true}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Guess:' followed by your answer (single word only)."
+      },
+      {
+        "role": "assistant",
+        "content": "Guess: ladder"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List two programming languages."
+      },
+      {
+        "role": "assistant",
+        "content": "Python, Go"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a temperature in Fahrenheit format."
+      },
+      {
+        "role": "assistant",
+        "content": "68\u00b0F"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'KEY:' followed by a keyboard character."
+      },
+      {
+        "role": "assistant",
+        "content": "KEY: Tab"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about animals\u2019 speed."
+      },
+      {
+        "role": "assistant",
+        "content": "Are cheetahs the fastest land animals?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word adjective for taste."
+      },
+      {
+        "role": "assistant",
+        "content": "Spicy"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a JSON with fields 'file' and 'size' in MB."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"file\": \"report.txt\", \"size\": 1.2}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a 3-word sentence using only nouns."
+      },
+      {
+        "role": "assistant",
+        "content": "Dog tree cloud"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'MARK:' followed by an exam score."
+      },
+      {
+        "role": "assistant",
+        "content": "MARK: 85"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a single lowercase verb."
+      },
+      {
+        "role": "assistant",
+        "content": "run"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Replace the tag MATERIAL: with one of [wood, steel]."
+      },
+      {
+        "role": "assistant",
+        "content": "MATERIAL: steel"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return a JSON array of odd numbers."
+      },
+      {
+        "role": "assistant",
+        "content": "[1, 3, 5]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a short warning using 'Caution:'"
+      },
+      {
+        "role": "assistant",
+        "content": "Caution: wet floor"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about humans."
+      },
+      {
+        "role": "assistant",
+        "content": "Do humans have 206 bones?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Describe the object 'submarine' (forbidden words: water, sea, dive)."
+      },
+      {
+        "role": "assistant",
+        "content": "It's a vehicle designed to operate below the surface."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give the next 3 moves to reach the fortress, each on a new line."
+      },
+      {
+        "role": "assistant",
+        "content": "1. Walk past the old windmill.\n2. Cross the wooden bridge.\n3. Turn right at the tall pine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "I'll handle this round. Don't suggest anything until I request help."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood. I\u2019ll stay silent until you ask."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "End your guidance with the phrase 'Mission complete.'"
+      },
+      {
+        "role": "assistant",
+        "content": "Climb to the second tower, and the switch will be behind the door. Mission complete."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a description of 'helicopter' without using: rotor, blades, or fly."
+      },
+      {
+        "role": "assistant",
+        "content": "It is a machine that lifts off vertically and hovers in the air."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "RiddleMe: You're the quizmaster. Ask a riddle prefaced by your role."
+      },
+      {
+        "role": "assistant",
+        "content": "Quizmaster: What has keys but can't open locks?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You're the navigator. Provide a direction sequence in JSON format (N, S, E, W)."
+      },
+      {
+        "role": "assistant",
+        "content": "[\"W\", \"S\", \"S\", \"E\"]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You may only respond with a single-word clue about the sky."
+      },
+      {
+        "role": "assistant",
+        "content": "Cloud"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Player: How do I reach the harbor? (Answer must begin with 'Route:')"
+      },
+      {
+        "role": "assistant",
+        "content": "Route: Head east past the lighthouse, then follow the road to the dock."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show the sequence of 4 steps to reach the crypt, each on its own line."
+      },
+      {
+        "role": "assistant",
+        "content": "1. Enter through the iron gate.\n2. Go down the spiral staircase.\n3. Open the stone door.\n4. Light the wall torch."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide the 2 final steps to complete the puzzle, one per line."
+      },
+      {
+        "role": "assistant",
+        "content": "1. Insert the golden key.\n2. Pull the lever behind the statue."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Roleplay: You're the gatekeeper. State the condition to enter."
+      },
+      {
+        "role": "assistant",
+        "content": "Gatekeeper: Only those who solve the riddle may pass."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Describe the clue 'volcano' (forbidden words: lava, eruption, fire)."
+      },
+      {
+        "role": "assistant",
+        "content": "It's a mountain that occasionally releases pressure and material from inside the Earth."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "End your answer with 'Checkpoint passed.'"
+      },
+      {
+        "role": "assistant",
+        "content": "Turn left past the statues. Checkpoint passed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Send JSON coordinates to the enemy base."
+      },
+      {
+        "role": "assistant",
+        "content": "[\"N\", \"E\", \"N\", \"W\"]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use only one word to hint at something cold."
+      },
+      {
+        "role": "assistant",
+        "content": "Ice"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only respond using a valid day of the week."
+      },
+      {
+        "role": "assistant",
+        "content": "Thursday"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a single-word hint about books."
+      },
+      {
+        "role": "assistant",
+        "content": "Library"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "RouteMaster: Explain how to reach the canyon (start with 'Route:')."
+      },
+      {
+        "role": "assistant",
+        "content": "Route: Head west through the pass, then descend into the valley."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "I\u2019m exploring first. Don\u2019t suggest anything until I ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it. I\u2019ll wait for your signal."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag NOTICE: followed by a single alert word."
+      },
+      {
+        "role": "assistant",
+        "content": "NOTICE: danger"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag STATUS: followed by 'online' or 'offline'."
+      },
+      {
+        "role": "assistant",
+        "content": "STATUS: online"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about the moon."
+      },
+      {
+        "role": "assistant",
+        "content": "Is the moon tidally locked?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with only a temperature in Celsius."
+      },
+      {
+        "role": "assistant",
+        "content": "18\u00b0C"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a one-word answer about the sky."
+      },
+      {
+        "role": "assistant",
+        "content": "Blue"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "End your statement with 'Confirmed.'"
+      },
+      {
+        "role": "assistant",
+        "content": "The device is active. Confirmed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a JSON with 'speed' and 'unit'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"speed\": 45, \"unit\": \"km/h\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with a three-word phrase describing wind."
+      },
+      {
+        "role": "assistant",
+        "content": "Cold, strong, invisible"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Warning:' and one weather condition."
+      },
+      {
+        "role": "assistant",
+        "content": "Warning: storm"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List two fruits separated by slash."
+      },
+      {
+        "role": "assistant",
+        "content": "apple/pear"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about reading."
+      },
+      {
+        "role": "assistant",
+        "content": "Is fiction different from nonfiction?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a command using 'Command:' and a verb."
+      },
+      {
+        "role": "assistant",
+        "content": "Command: stop"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with one of the directions: N, S, E, W."
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond using 'Signal:' and a color."
+      },
+      {
+        "role": "assistant",
+        "content": "Signal: green"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about sound."
+      },
+      {
+        "role": "assistant",
+        "content": "Can whales hear each other?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a sentence ending in 'gracefully.'"
+      },
+      {
+        "role": "assistant",
+        "content": "The dancer moved gracefully."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with only a valid file extension."
+      },
+      {
+        "role": "assistant",
+        "content": ".zip"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON with 'completed' set to true."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"completed\": true}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a one-word description of heat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hot"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag TAG: followed by a short label."
+      },
+      {
+        "role": "assistant",
+        "content": "TAG: mission"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a question about science in past tense."
+      },
+      {
+        "role": "assistant",
+        "content": "Did Einstein develop relativity?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a three-step plan for preparing tea, each step on a new line."
+      },
+      {
+        "role": "assistant",
+        "content": "1. Boil water.\n2. Steep the tea bag.\n3. Pour into a cup."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Describe the word 'spaceship' without using 'space', 'ship', or 'rocket'."
+      },
+      {
+        "role": "assistant",
+        "content": "A vehicle designed for travel beyond the Earth's atmosphere."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only answer using a JSON array of even numbers."
+      },
+      {
+        "role": "assistant",
+        "content": "[2, 4, 6]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Codenames: You're the analyst. Prefix your clue with 'Analyst:'."
+      },
+      {
+        "role": "assistant",
+        "content": "Analyst: Signal 3"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with only one word that represents movement."
+      },
+      {
+        "role": "assistant",
+        "content": "Slide"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about books and authors."
+      },
+      {
+        "role": "assistant",
+        "content": "Did Tolkien write The Hobbit?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Status:' followed by a one-word system state."
+      },
+      {
+        "role": "assistant",
+        "content": "Status: idle"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three colors separated by commas."
+      },
+      {
+        "role": "assistant",
+        "content": "blue, yellow, red"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "End your output with 'Objective complete.'"
+      },
+      {
+        "role": "assistant",
+        "content": "Travel north two blocks and locate the tower. Objective complete."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide the next 4 actions to reach the gate, one per line."
+      },
+      {
+        "role": "assistant",
+        "content": "1. Exit the building.\n2. Head east.\n3. Cross the river.\n4. Climb the hill."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Describe the object 'glider' (forbidden words: fly, air, wings)."
+      },
+      {
+        "role": "assistant",
+        "content": "It is a lightweight device that moves through the sky without a motor."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag RESULT: and a binary value."
+      },
+      {
+        "role": "assistant",
+        "content": "RESULT: 1010"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Navigator: Indicate the direction to the ruin, beginning with 'Route:'."
+      },
+      {
+        "role": "assistant",
+        "content": "Route: Go west through the forest, then cross the ravine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only give a one-word hint related to fire."
+      },
+      {
+        "role": "assistant",
+        "content": "Blaze"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about physical science."
+      },
+      {
+        "role": "assistant",
+        "content": "Does pressure increase with depth?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a command using 'Initiate:' followed by a task name."
+      },
+      {
+        "role": "assistant",
+        "content": "Initiate: scan"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a sentence ending in 'intentionally.'"
+      },
+      {
+        "role": "assistant",
+        "content": "The message was encrypted intentionally."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a dictionary with 'alert' and 'priority' fields."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"alert\": \"sensor triggered\", \"priority\": \"high\"}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a JSON array of direction commands."
+      },
+      {
+        "role": "assistant",
+        "content": "[\"E\", \"S\", \"E\", \"N\"]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only output the tag 'DONE' preceded by a final step sentence."
+      },
+      {
+        "role": "assistant",
+        "content": "Deploy the beacon. DONE"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'Mode:' followed by a game mode."
+      },
+      {
+        "role": "assistant",
+        "content": "Mode: stealth"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return only the number of hours in a week."
+      },
+      {
+        "role": "assistant",
+        "content": "168"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with one-word representing water."
+      },
+      {
+        "role": "assistant",
+        "content": "River"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a JSON with 'role' and 'active'."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"role\": \"admin\", \"active\": true}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about movement."
+      },
+      {
+        "role": "assistant",
+        "content": "Can cheetahs run over 100 km/h?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "End your message with 'Step complete.'"
+      },
+      {
+        "role": "assistant",
+        "content": "You have navigated the hallway. Step complete."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with a command starting 'Execute:'"
+      },
+      {
+        "role": "assistant",
+        "content": "Execute: reload"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond with a time of day in HH:MM format."
+      },
+      {
+        "role": "assistant",
+        "content": "09:15"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List three countries in South America."
+      },
+      {
+        "role": "assistant",
+        "content": "Brazil, Argentina, Chile"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer with only a valid hexadecimal digit."
+      },
+      {
+        "role": "assistant",
+        "content": "F"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the tag 'Result:' followed by a measurement."
+      },
+      {
+        "role": "assistant",
+        "content": "Result: 42cm"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a one-word hint about snow."
+      },
+      {
+        "role": "assistant",
+        "content": "Powder"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Describe the object 'hot air balloon' without using 'hot', 'air', or 'balloon'."
+      },
+      {
+        "role": "assistant",
+        "content": "A craft that floats by heating gas to lift off."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a three-step escape plan, each step on a new line."
+      },
+      {
+        "role": "assistant",
+        "content": "1. Unlock the hatch.\n2. Use the rope.\n3. Climb down carefully."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Cluemaster: Give a clue prefaced by your role and one word."
+      },
+      {
+        "role": "assistant",
+        "content": "Cluemaster: Storm"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with a valid Unix file permission in symbolic format."
+      },
+      {
+        "role": "assistant",
+        "content": "rwxr-xr--"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "List two programming concepts."
+      },
+      {
+        "role": "assistant",
+        "content": "recursion, iteration"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide a four-digit year in the past."
+      },
+      {
+        "role": "assistant",
+        "content": "1995"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask a yes-or-no question about AI systems."
+      },
+      {
+        "role": "assistant",
+        "content": "Can AI detect patterns?"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use 'Checkpoint:' and a short phrase."
+      },
+      {
+        "role": "assistant",
+        "content": "Checkpoint: entered safe zone"
+      }
+    ]
+  }
+]
