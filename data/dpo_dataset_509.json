@@ -1,0 +1,2497 @@
+[
+  {
+    "prompt": "List three words that start with the letter A.",
+    "chosen": "apple, ant, arrow",
+    "rejected": "Apple, ant, arrow word."
+  },
+  {
+    "prompt": "Name an animal that starts with 'A'.",
+    "chosen": "Armadillo",
+    "rejected": "Armadillo More explanation here."
+  },
+  {
+    "prompt": "Provide a JSON with fields 'name' and 'age'. Do not include any other text in the form.",
+    "chosen": "{\"name\": \"Alice\", \"age\": 25}",
+    "rejected": "Here is your JSON: {\"name\": \"Alice\", \"age\": 25}"
+  },
+  {
+    "prompt": "Give a dictionary with 'city' and 'country'. Do not include any other text in the form.",
+    "chosen": "{\"city\": \"Rome\", \"country\": \"Italy\"}",
+    "rejected": "Here is your JSON: {\"city\": \"Rome\", \"country\": \"Italy\"}"
+  },
+  {
+    "prompt": "Say YES if 'run' is both a noun and a verb.",
+    "chosen": "YES",
+    "rejected": "YES, definitely."
+  },
+  {
+    "prompt": "Say NO if 'stone' is not an adjective.",
+    "chosen": "NO",
+    "rejected": "NO, definitely."
+  },
+  {
+    "prompt": "Use the tag 'ANSWER:' followed by the name of a fruit. It has to be a single word.",
+    "chosen": "ANSWER: Mango",
+    "rejected": "ANSWER is Mango please."
+  },
+  {
+    "prompt": "Reply with the tag 'RESULT:' and the number 64. It has to be a single number.",
+    "chosen": "RESULT: 64",
+    "rejected": "RESULT is 64 please."
+  },
+  {
+    "prompt": "Write a sentence ending in 'soon'.",
+    "chosen": "They will return very soon.",
+    "rejected": "They will return very soon. Additional note."
+  },
+  {
+    "prompt": "Create a sentence that ends in 'today'.",
+    "chosen": "We begin our journey today.",
+    "rejected": "We begin our journey today. Additional note."
+  },
+  {
+    "prompt": "Write a sentence of exactly five words.",
+    "chosen": "Time passes when coding intensely.",
+    "rejected": "Time passes when coding intensely. Additional note."
+  },
+  {
+    "prompt": "Compose a six-word sentence about reading.",
+    "chosen": "Books help us grow each day.",
+    "rejected": "Books help us grow each day. Additional note."
+  },
+  {
+    "prompt": "Respond using only four-letter words.",
+    "chosen": "This test will move fast.",
+    "rejected": "This test will move fast. Additional note."
+  },
+  {
+    "prompt": "Return a list of words: apple, banana, cherry as a comma-separated list.",
+    "chosen": "apple, banana, cherry",
+    "rejected": "Apple, banana, cherry word."
+  },
+  {
+    "prompt": "Ask a question that can be answered with only yes or no.",
+    "chosen": "Is the sky blue?",
+    "rejected": "Is the sky blue? More explanation here."
+  },
+  {
+    "prompt": "Replace the tag GO: DIRECTION with one of [north, south, east, west].",
+    "chosen": "GO: west",
+    "rejected": "The output is GO: west"
+  },
+  {
+    "prompt": "Generate an expression starting with 'Expression: ' to describe a red apple. Omit any other text.",
+    "chosen": "Expression: the red apple on the table",
+    "rejected": "The output is Expression: the red apple on the table"
+  },
+  {
+    "prompt": "Generate an answer starting with 'Answer: ' to indicate the correct item. Omit any other text.",
+    "chosen": "Answer: the blue bottle on the left",
+    "rejected": "The output is Answer: the blue bottle on the left"
+  },
+  {
+    "prompt": "Provide a dictionary with 'language' and 'region'. Do not include any other text in the form.",
+    "chosen": "{\"language\": \"Spanish\", \"region\": \"Europe\"}",
+    "rejected": "Here is your JSON: {\"language\": \"Spanish\", \"region\": \"Europe\"}"
+  },
+  {
+    "prompt": "Use the tag 'RESULT:' followed by the number 5. It has to be a single number.",
+    "chosen": "RESULT: 5",
+    "rejected": "RESULT is 5 please."
+  },
+  {
+    "prompt": "Return a list of animals: cat, dog, rabbit as a comma-separated list.",
+    "chosen": "cat, dog, rabbit",
+    "rejected": "Cat, dog, rabbit word."
+  },
+  {
+    "prompt": "Generate an output that ends with the tag DONE. Omit any other text.",
+    "chosen": "Final step executed. DONE",
+    "rejected": "Final step executed. DONE More explanation here."
+  },
+  {
+    "prompt": "Generate a phrase starting with 'Response: ' describing a red balloon. Omit any other text.",
+    "chosen": "Response: a shiny red balloon floating",
+    "rejected": "The output is Response: a shiny red balloon floating"
+  },
+  {
+    "prompt": "Replace the tag TURN: SIDE with one of [left, right].",
+    "chosen": "TURN: right",
+    "rejected": "The output is TURN: right"
+  },
+  {
+    "prompt": "Use the tag 'ANSWER:' followed by the number of planets in the solar system. It has to be a single number.",
+    "chosen": "ANSWER: 8",
+    "rejected": "ANSWER is 8 please."
+  },
+  {
+    "prompt": "Replace the tag ACTION: <move> with one of [jump, slide, run].",
+    "chosen": "ACTION: run",
+    "rejected": "The output is ACTION: run"
+  },
+  {
+    "prompt": "Generate an output that ends with the tag DONE. Include a meaningful message before the tag.",
+    "chosen": "Sequence completed successfully. DONE",
+    "rejected": "Sequence completed successfully. DONE More explanation here."
+  },
+  {
+    "prompt": "Provide a JSON with 'username' and 'status'. Do not include any other text.",
+    "chosen": "{\"username\": \"alice\", \"status\": \"active\"}",
+    "rejected": "Here is your JSON: {\"username\": \"alice\", \"status\": \"active\"}"
+  },
+  {
+    "prompt": "Give a dictionary with 'file' and 'size'. Do not include any other text.",
+    "chosen": "{\"file\": \"report.pdf\", \"size\": \"2MB\"}",
+    "rejected": "Here is your JSON: {\"file\": \"report.pdf\", \"size\": \"2MB\"}"
+  },
+  {
+    "prompt": "Create a sentence that ends in 'tomorrow'.",
+    "chosen": "We will meet again tomorrow.",
+    "rejected": "We will meet again tomorrow. Additional note."
+  },
+  {
+    "prompt": "Use only words with three letters in your answer.",
+    "chosen": "The dog ran far.",
+    "rejected": "The dog ran far. Additional note."
+  },
+  {
+    "prompt": "Respond with a single color name.",
+    "chosen": "Blue.",
+    "rejected": "Blue. Additional note."
+  },
+  {
+    "prompt": "Use the tag VALUE: followed by a decimal number. Do not add any other text.",
+    "chosen": "VALUE: 3.14",
+    "rejected": "The output is VALUE: 3.14"
+  },
+  {
+    "prompt": "List three fruits in a comma-separated format.",
+    "chosen": "apple, grape, kiwi",
+    "rejected": "Apple, grape, kiwi word."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about pets.",
+    "chosen": "Do you have a cat?",
+    "rejected": "Do you have a cat? More explanation here."
+  },
+  {
+    "prompt": "Output a response starting with 'Reply: ' describing a quiet forest. Omit any other text.",
+    "chosen": "Reply: a still forest with mist",
+    "rejected": "The output is Reply: a still forest with mist"
+  },
+  {
+    "prompt": "Replace the tag TURN: DIRECTION with a value from [left, right, straight].",
+    "chosen": "TURN: left",
+    "rejected": "The output is TURN: left"
+  },
+  {
+    "prompt": "Generate an answer with the tag Response: followed by a one-word emotion.",
+    "chosen": "Response: joy",
+    "rejected": "The output is Response: joy"
+  },
+  {
+    "prompt": "Reply with a one-word command that means to begin.",
+    "chosen": "Start",
+    "rejected": "Start More explanation here."
+  },
+  {
+    "prompt": "Provide a dictionary with 'task' and 'deadline'. Do not include any other text.",
+    "chosen": "{\"task\": \"write report\", \"deadline\": \"Monday\"}",
+    "rejected": "Here is your JSON: {\"task\": \"write report\", \"deadline\": \"Monday\"}"
+  },
+  {
+    "prompt": "Replace the tag TIME: <hour> with an actual hour like '3pm'.",
+    "chosen": "TIME: 3pm",
+    "rejected": "The output is TIME: 3pm"
+  },
+  {
+    "prompt": "Say YES only if 'sleep' is a verb and a noun.",
+    "chosen": "YES",
+    "rejected": "YES, definitely."
+  },
+  {
+    "prompt": "Say NO if 'green' is not a verb.",
+    "chosen": "NO",
+    "rejected": "NO, definitely."
+  },
+  {
+    "prompt": "Output a JSON with 'language' and 'level'. Do not include any extra text.",
+    "chosen": "{\"language\": \"German\", \"level\": \"A2\"}",
+    "rejected": "Here is your JSON: {\"language\": \"German\", \"level\": \"A2\"}"
+  },
+  {
+    "prompt": "Use the tag COMMAND: followed by a direction word. Only output one word after the tag.",
+    "chosen": "COMMAND: east",
+    "rejected": "The output is COMMAND: east"
+  },
+  {
+    "prompt": "Generate an expression starting with 'Observation: ' describing the moon. Omit any other text.",
+    "chosen": "Observation: a bright moon in the sky",
+    "rejected": "The output is Observation: a bright moon in the sky"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about reading habits.",
+    "chosen": "Do you read every day?",
+    "rejected": "Do you read every day? More explanation here."
+  },
+  {
+    "prompt": "List three cities as a comma-separated list.",
+    "chosen": "Berlin, Tokyo, Paris",
+    "rejected": "Berlin, Tokyo, Paris More explanation here."
+  },
+  {
+    "prompt": "Give a dictionary with keys 'input' and 'output'. Do not include any other text.",
+    "chosen": "{\"input\": \"signal\", \"output\": \"response\"}",
+    "rejected": "Here is your JSON: {\"input\": \"signal\", \"output\": \"response\"}"
+  },
+  {
+    "prompt": "Respond with the tag 'KEY:' followed by a keyboard key.",
+    "chosen": "KEY: Enter",
+    "rejected": "The output is KEY: Enter"
+  },
+  {
+    "prompt": "Replace the tag ACTION: MOTION with one of [walk, fly, crawl].",
+    "chosen": "ACTION: fly",
+    "rejected": "The output is ACTION: fly"
+  },
+  {
+    "prompt": "Say YES if 'cook' can be both a noun and a verb.",
+    "chosen": "YES",
+    "rejected": "YES, definitely."
+  },
+  {
+    "prompt": "Say NO if 'beauty' cannot be used as a verb.",
+    "chosen": "NO",
+    "rejected": "NO, definitely."
+  },
+  {
+    "prompt": "Create a four-word sentence describing a computer.",
+    "chosen": "This machine runs quite fast.",
+    "rejected": "This machine runs quite fast. Additional note."
+  },
+  {
+    "prompt": "End your sentence with the tag FINISHED. Omit any other text.",
+    "chosen": "Final instruction complete. FINISHED",
+    "rejected": "Final instruction complete. FINISHED More explanation here."
+  },
+  {
+    "prompt": "Use the tag LABEL: followed by a single-digit number.",
+    "chosen": "LABEL: 7",
+    "rejected": "The output is LABEL: 7"
+  },
+  {
+    "prompt": "Give a JSON object with 'color' and 'shape'. Do not add any extra text.",
+    "chosen": "{\"color\": \"blue\", \"shape\": \"circle\"}",
+    "rejected": "Here is your JSON: {\"color\": \"blue\", \"shape\": \"circle\"}"
+  },
+  {
+    "prompt": "Provide a dictionary with 'title' and 'author'. Do not include any other text.",
+    "chosen": "{\"title\": \"1984\", \"author\": \"George Orwell\"}",
+    "rejected": "Here is your JSON: {\"title\": \"1984\", \"author\": \"George Orwell\"}"
+  },
+  {
+    "prompt": "List three file extensions separated by commas.",
+    "chosen": ".txt, .pdf, .csv",
+    "rejected": ".txt, .pdf, .csv word."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about transportation.",
+    "chosen": "Can a bike have gears?",
+    "rejected": "Can a bike have gears? More explanation here."
+  },
+  {
+    "prompt": "Output a single-word action someone might perform.",
+    "chosen": "Jump",
+    "rejected": "Jump More explanation here."
+  },
+  {
+    "prompt": "Replace the placeholder GOAL: <result> with a goal from [win, learn, survive].",
+    "chosen": "GOAL: learn",
+    "rejected": "The output is GOAL: learn"
+  },
+  {
+    "prompt": "Use 'Data:' followed by a numeric string. Do not include anything else.",
+    "chosen": "Data: 1024",
+    "rejected": "The output is Data: 1024"
+  },
+  {
+    "prompt": "Create a JSON with 'user' and 'score'. No extra text allowed.",
+    "chosen": "{\"user\": \"player1\", \"score\": 42}",
+    "rejected": "Here is your JSON: {\"user\": \"player1\", \"score\": 42}"
+  },
+  {
+    "prompt": "Say YES if 'light' has more than one meaning.",
+    "chosen": "YES",
+    "rejected": "YES, definitely."
+  },
+  {
+    "prompt": "Say NO if 'speed' cannot describe a person.",
+    "chosen": "NO",
+    "rejected": "NO, definitely."
+  },
+  {
+    "prompt": "Respond with 'Output:' and the sum of 5 and 9. Only include the tag and result.",
+    "chosen": "Output: 14",
+    "rejected": "The output is Output: 14"
+  },
+  {
+    "prompt": "Generate a sentence that ends with 'everywhere'.",
+    "chosen": "Technology is spreading fast everywhere.",
+    "rejected": "Technology is spreading fast everywhere. Additional note."
+  },
+  {
+    "prompt": "Use only even numbers in your answer, separated by commas.",
+    "chosen": "2, 4, 6",
+    "rejected": "2, 4, 6 More explanation here."
+  },
+  {
+    "prompt": "Return a dictionary with 'host' and 'port'. Do not include any other text.",
+    "chosen": "{\"host\": \"localhost\", \"port\": 8080}",
+    "rejected": "Here is your JSON: {\"host\": \"localhost\", \"port\": 8080}"
+  },
+  {
+    "prompt": "Ask a yes-or-no question involving music.",
+    "chosen": "Do you enjoy jazz music?",
+    "rejected": "Do you enjoy jazz music? More explanation here."
+  },
+  {
+    "prompt": "Replace the tag SETTING: MODE with a value from [auto, manual].",
+    "chosen": "SETTING: auto",
+    "rejected": "The output is SETTING: auto"
+  },
+  {
+    "prompt": "Use the tag ACTION: followed by one word from [scan, copy, print].",
+    "chosen": "ACTION: scan",
+    "rejected": "The output is ACTION: scan"
+  },
+  {
+    "prompt": "Generate an output that ends in DONE. Include a reason before it.",
+    "chosen": "All tasks completed. DONE",
+    "rejected": "All tasks completed. DONE More explanation here."
+  },
+  {
+    "prompt": "Write a five-word sentence about summer.",
+    "chosen": "The sun blazes all day.",
+    "rejected": "The sun blazes all day. Additional note."
+  },
+  {
+    "prompt": "Respond using the tag VALUE: followed by the number 42. Only include the tag and number.",
+    "chosen": "VALUE: 42",
+    "rejected": "The output is VALUE: 42"
+  },
+  {
+    "prompt": "Give a JSON object with keys 'name' and 'role'. Do not include anything else.",
+    "chosen": "{\"name\": \"Eve\", \"role\": \"moderator\"}",
+    "rejected": "Here is your JSON: {\"name\": \"Eve\", \"role\": \"moderator\"}"
+  },
+  {
+    "prompt": "Output a sentence that ends with 'clearly'.",
+    "chosen": "She spoke her thoughts clearly.",
+    "rejected": "She spoke her thoughts clearly. Additional note."
+  },
+  {
+    "prompt": "Ask a yes-or-no question involving travel.",
+    "chosen": "Have you visited Paris before?",
+    "rejected": "Have you visited Paris before? More explanation here."
+  },
+  {
+    "prompt": "Use only lowercase letters in your one-word answer.",
+    "chosen": "tiger",
+    "rejected": "Tiger word."
+  },
+  {
+    "prompt": "Generate an expression starting with 'Summary: ' about a recent event. Omit any other text.",
+    "chosen": "Summary: the meeting went well",
+    "rejected": "The output is Summary: the meeting went well"
+  },
+  {
+    "prompt": "Replace the tag MOVE: with one option from [push, pull, twist].",
+    "chosen": "MOVE: twist",
+    "rejected": "The output is MOVE: twist"
+  },
+  {
+    "prompt": "Use the tag STATE: followed by one US state. Do not include anything else.",
+    "chosen": "STATE: Oregon",
+    "rejected": "The output is STATE: Oregon"
+  },
+  {
+    "prompt": "Say YES if 'run' has multiple grammatical forms.",
+    "chosen": "YES",
+    "rejected": "YES, definitely."
+  },
+  {
+    "prompt": "Say NO if 'smile' is used as a noun.",
+    "chosen": "NO",
+    "rejected": "NO, definitely."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about weather.",
+    "chosen": "Is it raining right now?",
+    "rejected": "Is it raining right now? More explanation here."
+  },
+  {
+    "prompt": "Replace the tag TOOL: <device> with one of [drill, hammer, saw].",
+    "chosen": "TOOL: hammer",
+    "rejected": "The output is TOOL: hammer"
+  },
+  {
+    "prompt": "Output a JSON with 'error' and 'code'. Exclude any extra text.",
+    "chosen": "{\"error\": \"not found\", \"code\": 404}",
+    "rejected": "Here is your JSON: {\"error\": \"not found\", \"code\": 404}"
+  },
+  {
+    "prompt": "Respond with a one-word synonym of 'begin'.",
+    "chosen": "Commence",
+    "rejected": "Commence More explanation here."
+  },
+  {
+    "prompt": "Respond with 'Code:' followed by a postal code.",
+    "chosen": "Code: 90210",
+    "rejected": "The output is Code: 90210"
+  },
+  {
+    "prompt": "Ask a yes-or-no question involving language.",
+    "chosen": "Is Spanish spoken in Mexico?",
+    "rejected": "Is Spanish spoken in Mexico? More explanation here."
+  },
+  {
+    "prompt": "Use 'Step:' followed by the next action. Only one word.",
+    "chosen": "Step: build",
+    "rejected": "The output is Step: build"
+  },
+  {
+    "prompt": "Write a six-word sentence involving coffee.",
+    "chosen": "Morning coffee warms the sleepy soul.",
+    "rejected": "Morning coffee warms the sleepy soul. Additional note."
+  },
+  {
+    "prompt": "Respond with only one punctuation mark.",
+    "chosen": "!",
+    "rejected": "! More explanation here."
+  },
+  {
+    "prompt": "Use 'Input:' followed by a binary number.",
+    "chosen": "Input: 1011",
+    "rejected": "The output is Input: 1011"
+  },
+  {
+    "prompt": "List two possible guesses for the clue 'Animal', one per line.",
+    "chosen": "Lion\nElephant",
+    "rejected": "Lion\nElephant More explanation here."
+  },
+  {
+    "prompt": "Provide the next 3 steps to the destination, each on a new line.",
+    "chosen": "1. Turn left at the fork.\n2. Cross the red bridge.\n3. Climb the hill to the tower.",
+    "rejected": "1. Turn left at the fork.\n2. Cross the red bridge.\n3. Climb the hill to the tower. Additional note."
+  },
+  {
+    "prompt": "I'll look around first. Wait until I ask for directions (no unsolicited hints).",
+    "chosen": "Understood. I'll be here when you need guidance.",
+    "rejected": "Understood. I'll be here when you need guidance. Additional note."
+  },
+  {
+    "prompt": "Give the final directions and end your answer with 'Destination reached.'.",
+    "chosen": "Go straight for 100\u202fm, then you will see a cabin on your left. Destination reached.",
+    "rejected": "Go straight for 100\u202fm, then you will see a cabin on your left. Destination reached. Additional note."
+  },
+  {
+    "prompt": "Give a description of the clue for the word airplane (forbidden words: fly, plane, wing).",
+    "chosen": "It's a vehicle that carries people through the sky.",
+    "rejected": "It's a vehicle that carries people through the sky. Additional note."
+  },
+  {
+    "prompt": "Describe a beach (forbidden words: sand, sea, sun).",
+    "chosen": "It's a place by the water where people relax and play.",
+    "rejected": "It's a place by the water where people relax and play. Additional note."
+  },
+  {
+    "prompt": "Enter your guess (single word):",
+    "chosen": "CRANE",
+    "rejected": "Crane word."
+  },
+  {
+    "prompt": "Give a one-word hint for your team (no extra words).",
+    "chosen": "Ocean",
+    "rejected": "Ocean More explanation here."
+  },
+  {
+    "prompt": "Player: How do I reach the castle? (Answer must begin with 'Route:')",
+    "chosen": "Route: Head north to the crossroads, then turn east.",
+    "rejected": "Route: Head north to the crossroads, then turn east. Additional note."
+  },
+  {
+    "prompt": "Guesser: Is it edible? (Please answer starting with 'Yes,' or 'No,')",
+    "chosen": "Yes, it is edible.",
+    "rejected": "Yes, it is edible., definitely."
+  },
+  {
+    "prompt": "System: Provide the path to the treasure as a JSON array of moves (N,S,E,W).",
+    "chosen": "[\"N\", \"N\", \"E\", \"E\", \"S\"]",
+    "rejected": "[\"n\", \"n\", \"e\", \"e\", \"s\"] word."
+  },
+  {
+    "prompt": "Game: Submit your next guess in JSON format with the key 'guess'.",
+    "chosen": "{\"guess\": \"CRANE\"}",
+    "rejected": "Here is your JSON: {\"guess\": \"CRANE\"}"
+  },
+  {
+    "prompt": "You may only ask yes\u2013or\u2013no questions. Ask your next question.",
+    "chosen": "Is it electronic?",
+    "rejected": "Is it electronic? More explanation here."
+  },
+  {
+    "prompt": "Only one-word clues are allowed. Give a single-word clue related to water.",
+    "chosen": "Ocean",
+    "rejected": "Ocean More explanation here."
+  },
+  {
+    "prompt": "Codenames: You are the spymaster. Provide your clue prefaced by your role (e.g., 'Spymaster:').",
+    "chosen": "Spymaster: Shadow 2",
+    "rejected": "The output is Spymaster: Shadow 2"
+  },
+  {
+    "prompt": "GuessWhat: You're now the guesser. Ask a question starting with 'Guesser:' as your role.",
+    "chosen": "Guesser: Is it bigger than a car?",
+    "rejected": "The output is Guesser: Is it bigger than a car?"
+  },
+  {
+    "prompt": "Ask a yes/no question about the target.",
+    "chosen": "Is it something you can eat?",
+    "rejected": "Is it something you can eat? More explanation here."
+  },
+  {
+    "prompt": "You have reached the goal. Signal task completion.",
+    "chosen": "DONE",
+    "rejected": "Done word."
+  },
+  {
+    "prompt": "You're the guide. Begin your response with 'Guide:'.",
+    "chosen": "Guide: Please take the northern path past the stone bridge.",
+    "rejected": "Guide: Please take the northern path past the stone bridge. Additional note."
+  },
+  {
+    "prompt": "Wait for further instructions before continuing. What do you say?",
+    "chosen": "Waiting for your next command.",
+    "rejected": "Waiting for your next command. Additional note."
+  },
+  {
+    "prompt": "Describe the target in one unique, specific sentence.",
+    "chosen": "A red car with a broken taillight parked under a palm tree.",
+    "rejected": "A red car with a broken taillight parked under a palm tree. Additional note."
+  },
+  {
+    "prompt": "Ask only one question about the target.",
+    "chosen": "Is it alive?",
+    "rejected": "Is it alive? More explanation here."
+  },
+  {
+    "prompt": "Use the tag 'CLUE:' followed by a single word.",
+    "chosen": "CLUE: Voice",
+    "rejected": "The output is CLUE: Voice"
+  },
+  {
+    "prompt": "Give a one-word response only, no explanation.",
+    "chosen": "These",
+    "rejected": "These More explanation here."
+  },
+  {
+    "prompt": "Describe a beach without using the words sand, sea, or sun.",
+    "chosen": "It's a place where people relax near water and waves.",
+    "rejected": "It's a place where people relax near water and waves. Additional note."
+  },
+  {
+    "prompt": "Considering we already ruled out animals, ask the next logical question.",
+    "chosen": "Is it a household object?",
+    "rejected": "Is it a household object? More explanation here."
+  },
+  {
+    "prompt": "You are on your final attempt. Make it count!",
+    "chosen": "Address",
+    "rejected": "Address More explanation here."
+  },
+  {
+    "prompt": "Provide your answer in a single sentence, nothing more.",
+    "chosen": "Yes, I agree.",
+    "rejected": "Yes, I agree., definitely."
+  },
+  {
+    "prompt": "Matchit: List your next three guesses, one per line.",
+    "chosen": "rich\nthrow\nfly",
+    "rejected": "Rich\nthrow\nfly word."
+  },
+  {
+    "prompt": "Output a JSON with keys 'temperature' and 'unit'. Do not include any extra text.",
+    "chosen": "{\"temperature\": 22, \"unit\": \"Celsius\"}",
+    "rejected": "Here is your JSON: {\"temperature\": 22, \"unit\": \"Celsius\"}"
+  },
+  {
+    "prompt": "Use the tag 'ACTION:' followed by a single verb related to movement.",
+    "chosen": "ACTION: jump",
+    "rejected": "The output is ACTION: jump"
+  },
+  {
+    "prompt": "Provide a five-word sentence about rain.",
+    "chosen": "Raindrops fall softly on leaves.",
+    "rejected": "Raindrops fall softly on leaves. Additional note."
+  },
+  {
+    "prompt": "Reply with only a one-word answer that expresses agreement.",
+    "chosen": "Yes",
+    "rejected": "Yes, definitely."
+  },
+  {
+    "prompt": "Use 'Status:' followed by one word that describes a system.",
+    "chosen": "Status: active",
+    "rejected": "The output is Status: active"
+  },
+  {
+    "prompt": "You may only respond using a number. Do not write anything else.",
+    "chosen": "42",
+    "rejected": "42 More explanation here."
+  },
+  {
+    "prompt": "Replace <direction> with one of [up, down, left, right].",
+    "chosen": "left",
+    "rejected": "Left word."
+  },
+  {
+    "prompt": "Respond with a single punctuation mark only.",
+    "chosen": "?",
+    "rejected": "? More explanation here."
+  },
+  {
+    "prompt": "List three vegetables as a comma-separated list.",
+    "chosen": "carrot, potato, broccoli",
+    "rejected": "Carrot, potato, broccoli word."
+  },
+  {
+    "prompt": "Provide a dictionary with 'username' and 'email'. No extra text.",
+    "chosen": "{\"username\": \"user1\", \"email\": \"user1@example.com\"}",
+    "rejected": "Here is your JSON: {\"username\": \"user1\", \"email\": \"user1@example.com\"}"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about space.",
+    "chosen": "Is the moon visible tonight?",
+    "rejected": "Is the moon visible tonight? More explanation here."
+  },
+  {
+    "prompt": "Give a one-word name of a profession.",
+    "chosen": "Engineer",
+    "rejected": "Engineer More explanation here."
+  },
+  {
+    "prompt": "Output a sentence ending in 'carefully.'",
+    "chosen": "She placed the glass down carefully.",
+    "rejected": "She placed the glass down carefully. Additional note."
+  },
+  {
+    "prompt": "Ask a yes/no question about colors.",
+    "chosen": "Is red a primary color?",
+    "rejected": "Is red a primary color? More explanation here."
+  },
+  {
+    "prompt": "Submit a JSON with 'level' and 'score'.",
+    "chosen": "{\"level\": 3, \"score\": 1200}",
+    "rejected": "Here is your JSON: {\"level\": 3, \"score\": 1200}"
+  },
+  {
+    "prompt": "Use the tag 'CLUE:' and a one-word hint for the category 'music'.",
+    "chosen": "CLUE: Melody",
+    "rejected": "The output is CLUE: Melody"
+  },
+  {
+    "prompt": "Generate a sentence that ends with 'clearly.'",
+    "chosen": "The instructions were written clearly.",
+    "rejected": "The instructions were written clearly. Additional note."
+  },
+  {
+    "prompt": "Use only three-letter words to form a sentence.",
+    "chosen": "The cat ran out.",
+    "rejected": "The cat ran out. Additional note."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about animals.",
+    "chosen": "Can penguins swim?",
+    "rejected": "Can penguins swim? More explanation here."
+  },
+  {
+    "prompt": "End your message with the word 'Complete.'",
+    "chosen": "Step finished. Complete.",
+    "rejected": "Step finished. Complete. Additional note."
+  },
+  {
+    "prompt": "Start your response with 'Note:' followed by a short warning.",
+    "chosen": "Note: Watch out for slippery floors.",
+    "rejected": "Note: Watch out for slippery floors., definitely."
+  },
+  {
+    "prompt": "Return a JSON with 'name' and 'role'. No other text allowed.",
+    "chosen": "{\"name\": \"Anna\", \"role\": \"guide\"}",
+    "rejected": "Here is your JSON: {\"name\": \"Anna\", \"role\": \"guide\"}"
+  },
+  {
+    "prompt": "Give a one-word synonym for 'strong'.",
+    "chosen": "Robust",
+    "rejected": "Robust More explanation here."
+  },
+  {
+    "prompt": "Use 'Label:' followed by a category type.",
+    "chosen": "Label: vehicle",
+    "rejected": "The output is Label: vehicle"
+  },
+  {
+    "prompt": "Provide a 6-word sentence about exploration.",
+    "chosen": "They journeyed across distant unknown lands.",
+    "rejected": "They journeyed across distant unknown lands. Additional note."
+  },
+  {
+    "prompt": "List three animals that live in water.",
+    "chosen": "dolphin, octopus, seal",
+    "rejected": "Dolphin, octopus, seal word."
+  },
+  {
+    "prompt": "Use the tag 'NEXT:' followed by one step.",
+    "chosen": "NEXT: proceed",
+    "rejected": "The output is NEXT: proceed"
+  },
+  {
+    "prompt": "Replace the tag STEP: with a verb from [mix, bake, stir].",
+    "chosen": "STEP: mix",
+    "rejected": "The output is STEP: mix"
+  },
+  {
+    "prompt": "Use only one word to describe winter.",
+    "chosen": "Cold",
+    "rejected": "Cold More explanation here."
+  },
+  {
+    "prompt": "Provide a dictionary with 'question' and 'answer'.",
+    "chosen": "{\"question\": \"Capital of France?\", \"answer\": \"Paris\"}",
+    "rejected": "Here is your JSON: {\"question\": \"Capital of France?\", \"answer\": \"Paris\"}"
+  },
+  {
+    "prompt": "Provide a list of three tools.",
+    "chosen": "hammer, wrench, screwdriver",
+    "rejected": "Hammer, wrench, screwdriver word."
+  },
+  {
+    "prompt": "Ask a question that can be answered with 'no'.",
+    "chosen": "Is fire cold?",
+    "rejected": "Is fire cold? More explanation here."
+  },
+  {
+    "prompt": "Provide a JSON array of three fruit names.",
+    "chosen": "[\"apple\", \"banana\", \"cherry\"]",
+    "rejected": "[\"apple\", \"banana\", \"cherry\"] word."
+  },
+  {
+    "prompt": "Respond with 'Field:' followed by one type of science.",
+    "chosen": "Field: biology",
+    "rejected": "The output is Field: biology"
+  },
+  {
+    "prompt": "Write a sentence that ends in 'naturally.'",
+    "chosen": "This process occurs slowly and naturally.",
+    "rejected": "This process occurs slowly and naturally. Additional note."
+  },
+  {
+    "prompt": "Use the tag 'TASK:' followed by a short task description.",
+    "chosen": "TASK: fill out the form",
+    "rejected": "The output is TASK: fill out the form"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about books.",
+    "chosen": "Is this a hardcover book?",
+    "rejected": "Is this a hardcover book? More explanation here."
+  },
+  {
+    "prompt": "Give a sentence using only four-letter words.",
+    "chosen": "Time goes fast with luck.",
+    "rejected": "Time goes fast with luck. Additional note."
+  },
+  {
+    "prompt": "Provide a response that ends with 'exactly.'",
+    "chosen": "You need to follow the rules exactly.",
+    "rejected": "You need to follow the rules exactly. Additional note."
+  },
+  {
+    "prompt": "Give a one-word name of a country.",
+    "chosen": "Brazil",
+    "rejected": "Brazil More explanation here."
+  },
+  {
+    "prompt": "Use 'Location:' followed by a room in a house.",
+    "chosen": "Location: kitchen",
+    "rejected": "The output is Location: kitchen"
+  },
+  {
+    "prompt": "Use the tag 'SCORE:' followed by a numeric value.",
+    "chosen": "SCORE: 98",
+    "rejected": "The output is SCORE: 98"
+  },
+  {
+    "prompt": "Output a valid JSON object with 'x' and 'y' coordinates.",
+    "chosen": "{\"x\": 5, \"y\": 12}",
+    "rejected": "Here is your JSON: {\"x\": 5, \"y\": 12}"
+  },
+  {
+    "prompt": "Answer with a sentence ending in 'quickly.'",
+    "chosen": "They left the building quickly.",
+    "rejected": "They left the building quickly. Additional note."
+  },
+  {
+    "prompt": "Respond with 'Mode:' followed by one of [auto, manual].",
+    "chosen": "Mode: auto",
+    "rejected": "The output is Mode: auto"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about cities.",
+    "chosen": "Is Berlin the capital of Germany?",
+    "rejected": "Is Berlin the capital of Germany? More explanation here."
+  },
+  {
+    "prompt": "Use only numbers in the response, separated by semicolons.",
+    "chosen": "1; 2; 3",
+    "rejected": "1; 2; 3 More explanation here."
+  },
+  {
+    "prompt": "Answer using the tag 'Answer:' and a single letter.",
+    "chosen": "Answer: A",
+    "rejected": "The output is Answer: A"
+  },
+  {
+    "prompt": "Return a JSON with a 'status' key only.",
+    "chosen": "{\"status\": \"done\"}",
+    "rejected": "Here is your JSON: {\"status\": \"done\"}"
+  },
+  {
+    "prompt": "Provide a dictionary with 'brand' and 'product'.",
+    "chosen": "{\"brand\": \"Apple\", \"product\": \"iPhone\"}",
+    "rejected": "Here is your JSON: {\"brand\": \"Apple\", \"product\": \"iPhone\"}"
+  },
+  {
+    "prompt": "Respond with a 3-word description of a forest.",
+    "chosen": "Quiet, green, vast",
+    "rejected": "Quiet, green, vast More explanation here."
+  },
+  {
+    "prompt": "Use 'Guess:' followed by your best guess.",
+    "chosen": "Guess: bicycle",
+    "rejected": "The output is Guess: bicycle"
+  },
+  {
+    "prompt": "Reply with a one-word emotion.",
+    "chosen": "Joy",
+    "rejected": "Joy More explanation here."
+  },
+  {
+    "prompt": "Use only capital letters to answer.",
+    "chosen": "SUCCESS",
+    "rejected": "Success word."
+  },
+  {
+    "prompt": "Start your reply with 'Info:' and include one fact.",
+    "chosen": "Info: Water boils at 100\u00b0C.",
+    "rejected": "Info: Water boils at 100\u00b0C. Additional note."
+  },
+  {
+    "prompt": "Give a one-word command for a robot.",
+    "chosen": "Start",
+    "rejected": "Start More explanation here."
+  },
+  {
+    "prompt": "Provide a list of planets.",
+    "chosen": "Mercury, Venus, Earth",
+    "rejected": "Mercury, Venus, Earth More explanation here."
+  },
+  {
+    "prompt": "Provide a list of three programming languages.",
+    "chosen": "Python, JavaScript, Rust",
+    "rejected": "Python, JavaScript, Rust More explanation here."
+  },
+  {
+    "prompt": "Use the tag 'Category:' and a movie genre.",
+    "chosen": "Category: thriller",
+    "rejected": "The output is Category: thriller"
+  },
+  {
+    "prompt": "Respond with only a numeric value for height in cm.",
+    "chosen": "180",
+    "rejected": "180 More explanation here."
+  },
+  {
+    "prompt": "Return a dictionary with keys 'title' and 'genre'.",
+    "chosen": "{\"title\": \"Inception\", \"genre\": \"Sci-Fi\"}",
+    "rejected": "Here is your JSON: {\"title\": \"Inception\", \"genre\": \"Sci-Fi\"}"
+  },
+  {
+    "prompt": "Use 'Metric:' followed by a performance measure.",
+    "chosen": "Metric: speed",
+    "rejected": "The output is Metric: speed"
+  },
+  {
+    "prompt": "Give a short sentence about space.",
+    "chosen": "Stars shine brightly at night.",
+    "rejected": "Stars shine brightly at night. Additional note."
+  },
+  {
+    "prompt": "Return a list of three shapes.",
+    "chosen": "circle, square, triangle",
+    "rejected": "Circle, square, triangle word."
+  },
+  {
+    "prompt": "Use only lowercase letters to name a city.",
+    "chosen": "london",
+    "rejected": "London word."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about programming.",
+    "chosen": "Is Python a programming language?",
+    "rejected": "Is Python a programming language? More explanation here."
+  },
+  {
+    "prompt": "Start your response with 'Agent:' and suggest a strategy.",
+    "chosen": "Agent: Observe before acting.",
+    "rejected": "Agent: Observe before acting. Additional note."
+  },
+  {
+    "prompt": "Use 'Clue:' followed by a one-word hint.",
+    "chosen": "Clue: Frozen",
+    "rejected": "The output is Clue: Frozen"
+  },
+  {
+    "prompt": "Output a sentence that ends with 'early.'",
+    "chosen": "They arrived at the station early.",
+    "rejected": "They arrived at the station early. Additional note."
+  },
+  {
+    "prompt": "Reply using 'Output:' and a short phrase.",
+    "chosen": "Output: task complete",
+    "rejected": "The output is Output: task complete"
+  },
+  {
+    "prompt": "Provide a JSON object with 'user_id' and 'session_id'.",
+    "chosen": "{\"user_id\": 123, \"session_id\": \"abc456\"}",
+    "rejected": "Here is your JSON: {\"user_id\": 123, \"session_id\": \"abc456\"}"
+  },
+  {
+    "prompt": "Give a one-word name of a body part.",
+    "chosen": "Elbow",
+    "rejected": "Elbow More explanation here."
+  },
+  {
+    "prompt": "List two ways to travel, separated by slashes.",
+    "chosen": "train / bus",
+    "rejected": "Train / bus word."
+  },
+  {
+    "prompt": "Use 'Signal:' followed by a one-word status.",
+    "chosen": "Signal: clear",
+    "rejected": "The output is Signal: clear"
+  },
+  {
+    "prompt": "Answer with the square root of 144.",
+    "chosen": "12",
+    "rejected": "12 More explanation here."
+  },
+  {
+    "prompt": "Create a sentence using the word 'strategy'.",
+    "chosen": "Our strategy relies on collaboration.",
+    "rejected": "Our strategy relies on collaboration. Additional note."
+  },
+  {
+    "prompt": "Give a three-letter acronym for a space agency.",
+    "chosen": "NASA",
+    "rejected": "Nasa word."
+  },
+  {
+    "prompt": "Use only digits in your response.",
+    "chosen": "2048",
+    "rejected": "2048 More explanation here."
+  },
+  {
+    "prompt": "Provide a list of months that start with J.",
+    "chosen": "January, June, July",
+    "rejected": "January, June, July More explanation here."
+  },
+  {
+    "prompt": "Reply with a single word that describes the desert.",
+    "chosen": "Arid",
+    "rejected": "Arid More explanation here."
+  },
+  {
+    "prompt": "Respond with 'Code:' followed by a short passcode.",
+    "chosen": "Code: 7Y4K",
+    "rejected": "The output is Code: 7Y4K"
+  },
+  {
+    "prompt": "Provide a JSON with a key 'valid' set to true.",
+    "chosen": "{\"valid\": true}",
+    "rejected": "Here is your JSON: {\"valid\": true}"
+  },
+  {
+    "prompt": "Use 'Hint:' followed by a location.",
+    "chosen": "Hint: mountain",
+    "rejected": "The output is Hint: mountain"
+  },
+  {
+    "prompt": "Return a dictionary with keys 'question' and 'choices'.",
+    "chosen": "{\"question\": \"Best fruit?\", \"choices\": [\"apple\", \"banana\", \"cherry\"]}",
+    "rejected": "Here is your JSON: {\"question\": \"Best fruit?\", \"choices\": [\"apple\", \"banana\", \"cherry\"]}"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about pets.",
+    "chosen": "Do cats sleep a lot?",
+    "rejected": "Do cats sleep a lot? More explanation here."
+  },
+  {
+    "prompt": "Use 'Step:' followed by one action word.",
+    "chosen": "Step: fold",
+    "rejected": "The output is Step: fold"
+  },
+  {
+    "prompt": "Respond with a math expression result: 9 * 8 =",
+    "chosen": "72",
+    "rejected": "72 More explanation here."
+  },
+  {
+    "prompt": "Give a one-word feeling about success.",
+    "chosen": "Proud",
+    "rejected": "Proud More explanation here."
+  },
+  {
+    "prompt": "Use the tag 'ROUND:' followed by a round number.",
+    "chosen": "ROUND: 3",
+    "rejected": "The output is ROUND: 3"
+  },
+  {
+    "prompt": "Start your response with 'Turn:' followed by a direction.",
+    "chosen": "Turn: left",
+    "rejected": "The output is Turn: left"
+  },
+  {
+    "prompt": "Answer with a programming concept.",
+    "chosen": "Variable",
+    "rejected": "Variable More explanation here."
+  },
+  {
+    "prompt": "Provide a one-word description of summer.",
+    "chosen": "Hot",
+    "rejected": "Hot More explanation here."
+  },
+  {
+    "prompt": "Give a list of three continents.",
+    "chosen": "Asia, Europe, Africa",
+    "rejected": "Asia, Europe, Africa More explanation here."
+  },
+  {
+    "prompt": "Answer using a color associated with envy.",
+    "chosen": "Green",
+    "rejected": "Green More explanation here."
+  },
+  {
+    "prompt": "Reply with 'Choice:' followed by a letter A\u2013D.",
+    "chosen": "Choice: B",
+    "rejected": "The output is Choice: B"
+  },
+  {
+    "prompt": "Use only the word that matches the number 1000.",
+    "chosen": "Thousand",
+    "rejected": "Thousand More explanation here."
+  },
+  {
+    "prompt": "Respond with the next prime number after 17.",
+    "chosen": "19",
+    "rejected": "19 More explanation here."
+  },
+  {
+    "prompt": "Give a short phrase about teamwork.",
+    "chosen": "Together everyone achieves more.",
+    "rejected": "Together everyone achieves more. Additional note."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about cooking.",
+    "chosen": "Do you add salt to pasta?",
+    "rejected": "Do you add salt to pasta? More explanation here."
+  },
+  {
+    "prompt": "Use the tag RESULT: followed by a percentage value. No other text.",
+    "chosen": "RESULT: 95%",
+    "rejected": "RESULT is 95% please."
+  },
+  {
+    "prompt": "Respond with one color, in lowercase only.",
+    "chosen": "orange",
+    "rejected": "Orange word."
+  },
+  {
+    "prompt": "Give a one-word answer that describes happiness.",
+    "chosen": "Joy",
+    "rejected": "Joy More explanation here."
+  },
+  {
+    "prompt": "List three tools used in carpentry.",
+    "chosen": "saw, hammer, chisel",
+    "rejected": "Saw, hammer, chisel word."
+  },
+  {
+    "prompt": "Provide a JSON with keys 'device' and 'model'. No comments.",
+    "chosen": "{\"device\": \"phone\", \"model\": \"X10\"}",
+    "rejected": "Here is your JSON: {\"device\": \"phone\", \"model\": \"X10\"}"
+  },
+  {
+    "prompt": "Start your sentence with 'Message:' followed by a greeting.",
+    "chosen": "Message: Good morning!",
+    "rejected": "The output is Message: Good morning!"
+  },
+  {
+    "prompt": "Use the tag ALERT: and a one-word danger warning.",
+    "chosen": "ALERT: flood",
+    "rejected": "The output is ALERT: flood"
+  },
+  {
+    "prompt": "Return only a numeric code of four digits.",
+    "chosen": "2024",
+    "rejected": "2024 More explanation here."
+  },
+  {
+    "prompt": "Use 'Task:' followed by a brief assignment description.",
+    "chosen": "Task: clean the lab",
+    "rejected": "The output is Task: clean the lab"
+  },
+  {
+    "prompt": "Respond with a one-word body part.",
+    "chosen": "Hand",
+    "rejected": "Hand More explanation here."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about memory.",
+    "chosen": "Is RAM volatile memory?",
+    "rejected": "Is RAM volatile memory? More explanation here."
+  },
+  {
+    "prompt": "Reply using the tag OUTPUT: and a measurement.",
+    "chosen": "OUTPUT: 5kg",
+    "rejected": "The output is OUTPUT: 5kg"
+  },
+  {
+    "prompt": "End your sentence with the word 'urgently.'",
+    "chosen": "Please respond to the email urgently.",
+    "rejected": "Please respond to the email urgently. Additional note."
+  },
+  {
+    "prompt": "Use 'Label:' followed by one of [urgent, normal, low].",
+    "chosen": "Label: urgent",
+    "rejected": "The output is Label: urgent"
+  },
+  {
+    "prompt": "Provide a dictionary with 'name' and 'occupation'.",
+    "chosen": "{\"name\": \"Bob\", \"occupation\": \"driver\"}",
+    "rejected": "Here is your JSON: {\"name\": \"Bob\", \"occupation\": \"driver\"}"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about robots.",
+    "chosen": "Do robots use sensors?",
+    "rejected": "Do robots use sensors? More explanation here."
+  },
+  {
+    "prompt": "Give a JSON with 'score' as a float and 'passed' as a boolean.",
+    "chosen": "{\"score\": 92.5, \"passed\": true}",
+    "rejected": "Here is your JSON: {\"score\": 92.5, \"passed\": true}"
+  },
+  {
+    "prompt": "Use only a prime number in your reply.",
+    "chosen": "17",
+    "rejected": "17 More explanation here."
+  },
+  {
+    "prompt": "List three cities starting with 'S'.",
+    "chosen": "Seattle, Seoul, Sydney",
+    "rejected": "Seattle, Seoul, Sydney More explanation here."
+  },
+  {
+    "prompt": "Respond using only lowercase and one fruit name.",
+    "chosen": "banana",
+    "rejected": "Banana word."
+  },
+  {
+    "prompt": "Use the tag MESSAGE: and a two-word response.",
+    "chosen": "MESSAGE: system ready",
+    "rejected": "The output is MESSAGE: system ready"
+  },
+  {
+    "prompt": "Write a sentence that ends in 'safely.'",
+    "chosen": "The crew returned home safely.",
+    "rejected": "The crew returned home safely. Additional note."
+  },
+  {
+    "prompt": "Return a short phrase that ends in 'now.'",
+    "chosen": "You can speak now.",
+    "rejected": "You can speak now. Additional note."
+  },
+  {
+    "prompt": "List two kinds of transportation separated by slashes.",
+    "chosen": "car/train",
+    "rejected": "Car/train word."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about animals' diet.",
+    "chosen": "Are pandas herbivores?",
+    "rejected": "Are pandas herbivores? More explanation here."
+  },
+  {
+    "prompt": "Use 'Code:' followed by a two-letter abbreviation.",
+    "chosen": "Code: NY",
+    "rejected": "The output is Code: NY"
+  },
+  {
+    "prompt": "Write a question about time in the future tense.",
+    "chosen": "Will the event start on time?",
+    "rejected": "Will the event start on time? More explanation here."
+  },
+  {
+    "prompt": "Use only even digits, no words.",
+    "chosen": "4682",
+    "rejected": "4682 More explanation here."
+  },
+  {
+    "prompt": "Provide a JSON with fields 'duration' and 'unit'.",
+    "chosen": "{\"duration\": 30, \"unit\": \"minutes\"}",
+    "rejected": "Here is your JSON: {\"duration\": 30, \"unit\": \"minutes\"}"
+  },
+  {
+    "prompt": "Reply with a single punctuation mark that expresses uncertainty.",
+    "chosen": "?",
+    "rejected": "? More explanation here."
+  },
+  {
+    "prompt": "Ask a yes-or-no question involving chemistry.",
+    "chosen": "Is H2O a compound?",
+    "rejected": "Is H2O a compound? More explanation here."
+  },
+  {
+    "prompt": "Provide a one-word command associated with urgency.",
+    "chosen": "Run",
+    "rejected": "Run More explanation here."
+  },
+  {
+    "prompt": "Use the tag FLAG: followed by a one-word state.",
+    "chosen": "FLAG: idle",
+    "rejected": "The output is FLAG: idle"
+  },
+  {
+    "prompt": "Write a three-word summary of today's weather.",
+    "chosen": "Cloudy, cool, breezy",
+    "rejected": "Cloudy, cool, breezy More explanation here."
+  },
+  {
+    "prompt": "Return only the value of pi to 2 decimals.",
+    "chosen": "3.14",
+    "rejected": "3.14 More explanation here."
+  },
+  {
+    "prompt": "Replace <animal> with a mammal name.",
+    "chosen": "Elephant",
+    "rejected": "Elephant More explanation here."
+  },
+  {
+    "prompt": "Use the format 'Phase: [step]' to describe a process stage.",
+    "chosen": "Phase: testing",
+    "rejected": "The output is Phase: testing"
+  },
+  {
+    "prompt": "Give a one-word job that starts with D.",
+    "chosen": "Dentist",
+    "rejected": "Dentist More explanation here."
+  },
+  {
+    "prompt": "Respond with the number of legs a spider has.",
+    "chosen": "8",
+    "rejected": "8 More explanation here."
+  },
+  {
+    "prompt": "Use 'Warning:' and one word from [fire, ice, flood].",
+    "chosen": "Warning: fire",
+    "rejected": "The output is Warning: fire"
+  },
+  {
+    "prompt": "Provide a list of file formats.",
+    "chosen": ".jpg, .png, .docx",
+    "rejected": ".jpg, .png, .docx word."
+  },
+  {
+    "prompt": "Start your reply with 'Result:' and a single-digit.",
+    "chosen": "Result: 3",
+    "rejected": "Result is 3 please."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about water.",
+    "chosen": "Does ice float on water?",
+    "rejected": "Does ice float on water? More explanation here."
+  },
+  {
+    "prompt": "Use 'Mark:' followed by a school grade.",
+    "chosen": "Mark: A",
+    "rejected": "The output is Mark: A"
+  },
+  {
+    "prompt": "Write a sentence using 'gravity'.",
+    "chosen": "Gravity keeps us grounded.",
+    "rejected": "Gravity keeps us grounded. Additional note."
+  },
+  {
+    "prompt": "Provide a dictionary with 'type' and 'status'.",
+    "chosen": "{\"type\": \"email\", \"status\": \"unread\"}",
+    "rejected": "Here is your JSON: {\"type\": \"email\", \"status\": \"unread\"}"
+  },
+  {
+    "prompt": "Reply with a math operation result: 12 - 5 =",
+    "chosen": "7",
+    "rejected": "7 More explanation here."
+  },
+  {
+    "prompt": "Use the tag FINAL: to mark a concluding step.",
+    "chosen": "FINAL: shutdown",
+    "rejected": "The output is FINAL: shutdown"
+  },
+  {
+    "prompt": "List three programming libraries.",
+    "chosen": "NumPy, Pandas, Matplotlib",
+    "rejected": "NumPy, Pandas, Matplotlib More explanation here."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about cooking times.",
+    "chosen": "Does rice take 15 minutes?",
+    "rejected": "Does rice take 15 minutes? More explanation here."
+  },
+  {
+    "prompt": "Return a color associated with caution.",
+    "chosen": "Yellow",
+    "rejected": "Yellow More explanation here."
+  },
+  {
+    "prompt": "Provide a JSON with 'level' and 'alert'.",
+    "chosen": "{\"level\": \"high\", \"alert\": \"system\"}",
+    "rejected": "Here is your JSON: {\"level\": \"high\", \"alert\": \"system\"}"
+  },
+  {
+    "prompt": "Give a one-word description of ice.",
+    "chosen": "Cold",
+    "rejected": "Cold More explanation here."
+  },
+  {
+    "prompt": "Use 'Init:' followed by a process name.",
+    "chosen": "Init: backup",
+    "rejected": "The output is Init: backup"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about electronics.",
+    "chosen": "Is a diode directional?",
+    "rejected": "Is a diode directional? More explanation here."
+  },
+  {
+    "prompt": "Return only the result of 7 multiplied by 6.",
+    "chosen": "42",
+    "rejected": "42 More explanation here."
+  },
+  {
+    "prompt": "List three dessert items, comma-separated.",
+    "chosen": "cake, pie, ice cream",
+    "rejected": "Cake, pie, ice cream word."
+  },
+  {
+    "prompt": "Provide a four-letter word that means 'stop'.",
+    "chosen": "Halt",
+    "rejected": "Halt More explanation here."
+  },
+  {
+    "prompt": "Start with 'Query:' followed by a database field.",
+    "chosen": "Query: user_id",
+    "rejected": "The output is Query: user_id"
+  },
+  {
+    "prompt": "Return a numeric string of length 5.",
+    "chosen": "84329",
+    "rejected": "84329 More explanation here."
+  },
+  {
+    "prompt": "Use 'Temp:' followed by a number and unit C.",
+    "chosen": "Temp: 21\u00b0C",
+    "rejected": "The output is Temp: 21\u00b0C"
+  },
+  {
+    "prompt": "List three musical instruments.",
+    "chosen": "violin, trumpet, piano",
+    "rejected": "Violin, trumpet, piano word."
+  },
+  {
+    "prompt": "Write a yes-or-no question about electricity.",
+    "chosen": "Is copper conductive?",
+    "rejected": "Is copper conductive? More explanation here."
+  },
+  {
+    "prompt": "Use 'DATA:' followed by a sequence of digits.",
+    "chosen": "DATA: 8743",
+    "rejected": "The output is DATA: 8743"
+  },
+  {
+    "prompt": "Provide a JSON array of digits.",
+    "chosen": "[1, 2, 3]",
+    "rejected": "[1, 2, 3] More explanation here."
+  },
+  {
+    "prompt": "Reply with 'Step:' and an action verb.",
+    "chosen": "Step: align",
+    "rejected": "The output is Step: align"
+  },
+  {
+    "prompt": "Return a three-word phrase describing teamwork.",
+    "chosen": "Collaborate, communicate, deliver",
+    "rejected": "Collaborate, communicate, deliver More explanation here."
+  },
+  {
+    "prompt": "Write a question related to file storage.",
+    "chosen": "Can this file be compressed?",
+    "rejected": "Can this file be compressed? More explanation here."
+  },
+  {
+    "prompt": "Use 'Choice:' followed by a letter from A\u2013D.",
+    "chosen": "Choice: D",
+    "rejected": "The output is Choice: D"
+  },
+  {
+    "prompt": "Give a single word describing lightning.",
+    "chosen": "Electric",
+    "rejected": "Electric More explanation here."
+  },
+  {
+    "prompt": "Reply with a short phrase ending in 'efficiently.'",
+    "chosen": "They completed the task efficiently.",
+    "rejected": "They completed the task efficiently. Additional note."
+  },
+  {
+    "prompt": "Use 'Port:' and a valid network port number.",
+    "chosen": "Port: 443",
+    "rejected": "The output is Port: 443"
+  },
+  {
+    "prompt": "List three countries from Asia.",
+    "chosen": "India, Japan, Thailand",
+    "rejected": "India, Japan, Thailand More explanation here."
+  },
+  {
+    "prompt": "Provide a JSON object with one string and one boolean.",
+    "chosen": "{\"active\": true, \"name\": \"test\"}",
+    "rejected": "Here is your JSON: {\"active\": true, \"name\": \"test\"}"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about vision.",
+    "chosen": "Can humans see UV light?",
+    "rejected": "Can humans see UV light? More explanation here."
+  },
+  {
+    "prompt": "Use only one measurement unit.",
+    "chosen": "meters",
+    "rejected": "Meters word."
+  },
+  {
+    "prompt": "Reply with a single-digit prime number.",
+    "chosen": "5",
+    "rejected": "5 More explanation here."
+  },
+  {
+    "prompt": "Use 'Bot:' followed by a status report.",
+    "chosen": "Bot: scanning",
+    "rejected": "The output is Bot: scanning"
+  },
+  {
+    "prompt": "Write a short directive for a robot.",
+    "chosen": "Turn right.",
+    "rejected": "Turn right. Additional note."
+  },
+  {
+    "prompt": "Respond with only an even number.",
+    "chosen": "28",
+    "rejected": "28 More explanation here."
+  },
+  {
+    "prompt": "Provide a list of three cloud types.",
+    "chosen": "cumulus, stratus, cirrus",
+    "rejected": "Cumulus, stratus, cirrus word."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about coffee.",
+    "chosen": "Is espresso stronger than drip?",
+    "rejected": "Is espresso stronger than drip? More explanation here."
+  },
+  {
+    "prompt": "Use 'Range:' followed by two numbers.",
+    "chosen": "Range: 10\u201350",
+    "rejected": "The output is Range: 10\u201350"
+  },
+  {
+    "prompt": "Provide a dictionary with 'city' and 'population'.",
+    "chosen": "{\"city\": \"Madrid\", \"population\": 3200000}",
+    "rejected": "Here is your JSON: {\"city\": \"Madrid\", \"population\": 3200000}"
+  },
+  {
+    "prompt": "Write a question about language origins.",
+    "chosen": "Is Latin the root of French?",
+    "rejected": "Is Latin the root of French? More explanation here."
+  },
+  {
+    "prompt": "Return only a unit of digital storage.",
+    "chosen": "gigabyte",
+    "rejected": "Gigabyte word."
+  },
+  {
+    "prompt": "Reply using 'KEY:' and a keyboard key name.",
+    "chosen": "KEY: Escape",
+    "rejected": "The output is KEY: Escape"
+  },
+  {
+    "prompt": "Use the tag NOTE: with a one-line reminder.",
+    "chosen": "NOTE: Save your work.",
+    "rejected": "NOTE: Save your work., definitely."
+  },
+  {
+    "prompt": "Provide a four-digit year.",
+    "chosen": "2022",
+    "rejected": "2022 More explanation here."
+  },
+  {
+    "prompt": "List three aquatic animals.",
+    "chosen": "whale, dolphin, shark",
+    "rejected": "Whale, dolphin, shark word."
+  },
+  {
+    "prompt": "Give a single punctuation that denotes a pause.",
+    "chosen": ",",
+    "rejected": ", More explanation here."
+  },
+  {
+    "prompt": "Provide a sentence about time ending in 'regularly.'",
+    "chosen": "She exercises regularly.",
+    "rejected": "She exercises regularly. Additional note."
+  },
+  {
+    "prompt": "Use 'Alert:' and one of [red, yellow, green].",
+    "chosen": "Alert: red",
+    "rejected": "The output is Alert: red"
+  },
+  {
+    "prompt": "Provide a one-word clue related to ice.",
+    "chosen": "Frozen",
+    "rejected": "Frozen More explanation here."
+  },
+  {
+    "prompt": "Give a math equation with its result.",
+    "chosen": "5 + 4 = 9",
+    "rejected": "5 + 4 = 9 More explanation here."
+  },
+  {
+    "prompt": "Use 'Time:' and a format HH:MM.",
+    "chosen": "Time: 16:45",
+    "rejected": "The output is Time: 16:45"
+  },
+  {
+    "prompt": "List three planets not including Earth.",
+    "chosen": "Mars, Jupiter, Neptune",
+    "rejected": "Mars, Jupiter, Neptune More explanation here."
+  },
+  {
+    "prompt": "Write a question about safety equipment.",
+    "chosen": "Is a helmet required?",
+    "rejected": "Is a helmet required? More explanation here."
+  },
+  {
+    "prompt": "Use 'State:' followed by a capital city.",
+    "chosen": "State: Paris",
+    "rejected": "The output is State: Paris"
+  },
+  {
+    "prompt": "Provide a three-step instruction list, numbered.",
+    "chosen": "1. Open the lid.\n2. Insert the cartridge.\n3. Close the lid.",
+    "rejected": "1. Open the lid.\n2. Insert the cartridge.\n3. Close the lid. Additional note."
+  },
+  {
+    "prompt": "Give a one-word response that means silent.",
+    "chosen": "Quiet",
+    "rejected": "Quiet More explanation here."
+  },
+  {
+    "prompt": "Use the tag MODE: followed by either 'auto' or 'manual'.",
+    "chosen": "MODE: manual",
+    "rejected": "The output is MODE: manual"
+  },
+  {
+    "prompt": "Submit a JSON with 'key' and 'value'. No extra text.",
+    "chosen": "{\"key\": \"alpha\", \"value\": 42}",
+    "rejected": "Here is your JSON: {\"key\": \"alpha\", \"value\": 42}"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about history.",
+    "chosen": "Was the Roman Empire large?",
+    "rejected": "Was the Roman Empire large? More explanation here."
+  },
+  {
+    "prompt": "Return the square of 9.",
+    "chosen": "81",
+    "rejected": "81 More explanation here."
+  },
+  {
+    "prompt": "Use 'Alert:' followed by a one-word warning about danger.",
+    "chosen": "Alert: fire",
+    "rejected": "The output is Alert: fire"
+  },
+  {
+    "prompt": "Give a lowercase animal name, only one word.",
+    "chosen": "lion",
+    "rejected": "Lion word."
+  },
+  {
+    "prompt": "Replace the tag TOOL: with an item from [screwdriver, pliers, wrench].",
+    "chosen": "TOOL: pliers",
+    "rejected": "The output is TOOL: pliers"
+  },
+  {
+    "prompt": "Ask a single yes-or-no question about movies.",
+    "chosen": "Is Inception a sci-fi film?",
+    "rejected": "Is Inception a sci-fi film? More explanation here."
+  },
+  {
+    "prompt": "End your sentence with the word 'successfully.'",
+    "chosen": "They completed the experiment successfully.",
+    "rejected": "They completed the experiment successfully. Additional note."
+  },
+  {
+    "prompt": "Write a question that could be answered with 'No'.",
+    "chosen": "Is the Earth flat?",
+    "rejected": "Is the Earth flat? More explanation here."
+  },
+  {
+    "prompt": "Provide a single-digit number.",
+    "chosen": "7",
+    "rejected": "7 More explanation here."
+  },
+  {
+    "prompt": "Output a JSON with fields 'latitude' and 'longitude'.",
+    "chosen": "{\"latitude\": 40.7128, \"longitude\": -74.0060}",
+    "rejected": "Here is your JSON: {\"latitude\": 40.7128, \"longitude\": -74.0060}"
+  },
+  {
+    "prompt": "Give a one-word response that is a direction.",
+    "chosen": "North",
+    "rejected": "North, definitely."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about transportation.",
+    "chosen": "Is the metro faster than a bus?",
+    "rejected": "Is the metro faster than a bus? More explanation here."
+  },
+  {
+    "prompt": "Use the tag TASK: followed by a one-word verb.",
+    "chosen": "TASK: report",
+    "rejected": "The output is TASK: report"
+  },
+  {
+    "prompt": "Provide a JSON object with 'version' and 'status'.",
+    "chosen": "{\"version\": \"1.0.3\", \"status\": \"active\"}",
+    "rejected": "Here is your JSON: {\"version\": \"1.0.3\", \"status\": \"active\"}"
+  },
+  {
+    "prompt": "Reply with a one-word food item.",
+    "chosen": "Bread",
+    "rejected": "Bread More explanation here."
+  },
+  {
+    "prompt": "Replace <weather> with a word from [rainy, sunny, cloudy].",
+    "chosen": "sunny",
+    "rejected": "Sunny word."
+  },
+  {
+    "prompt": "Use 'Metric:' and one value from [speed, accuracy, efficiency].",
+    "chosen": "Metric: efficiency",
+    "rejected": "The output is Metric: efficiency"
+  },
+  {
+    "prompt": "Return the value of 6 squared.",
+    "chosen": "36",
+    "rejected": "36 More explanation here."
+  },
+  {
+    "prompt": "Provide a sentence about wind ending in 'strongly.'",
+    "chosen": "The trees swayed strongly.",
+    "rejected": "The trees swayed strongly. Additional note."
+  },
+  {
+    "prompt": "Ask a question about light in the present tense.",
+    "chosen": "Is light faster than sound?",
+    "rejected": "Is light faster than sound? More explanation here."
+  },
+  {
+    "prompt": "Provide a JSON with only one field: 'confirmed': true",
+    "chosen": "{\"confirmed\": true}",
+    "rejected": "Here is your JSON: {\"confirmed\": true}"
+  },
+  {
+    "prompt": "Respond with a single number representing the boiling point of water in Celsius.",
+    "chosen": "100",
+    "rejected": "100 More explanation here."
+  },
+  {
+    "prompt": "Use 'Result:' and a pass/fail status.",
+    "chosen": "Result: pass",
+    "rejected": "Result is pass please."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about machines.",
+    "chosen": "Can a robot vacuum navigate rooms?",
+    "rejected": "Can a robot vacuum navigate rooms? More explanation here."
+  },
+  {
+    "prompt": "Return a color name that starts with 'B'.",
+    "chosen": "Blue",
+    "rejected": "Blue More explanation here."
+  },
+  {
+    "prompt": "Give a one-word answer that means 'fast'.",
+    "chosen": "Quick",
+    "rejected": "Quick More explanation here."
+  },
+  {
+    "prompt": "Write a two-sentence message about safety.",
+    "chosen": "Wear your helmet. Be alert.",
+    "rejected": "Wear your helmet. Be alert. Additional note."
+  },
+  {
+    "prompt": "Replace the tag ACTION: <command> with one of [jump, crouch].",
+    "chosen": "ACTION: crouch",
+    "rejected": "The output is ACTION: crouch"
+  },
+  {
+    "prompt": "Output a math result: 50 divided by 5 =",
+    "chosen": "10",
+    "rejected": "10 More explanation here."
+  },
+  {
+    "prompt": "Use 'Data:' and a string containing 5 letters.",
+    "chosen": "Data: QWERT",
+    "rejected": "The output is Data: QWERT"
+  },
+  {
+    "prompt": "Provide a list of three programming paradigms.",
+    "chosen": "object-oriented, functional, procedural",
+    "rejected": "Object-oriented, functional, procedural word."
+  },
+  {
+    "prompt": "End your message with 'Confirmed.'",
+    "chosen": "Setup is complete. Confirmed.",
+    "rejected": "Setup is complete. Confirmed. Additional note."
+  },
+  {
+    "prompt": "List three planets in order from the sun.",
+    "chosen": "Mercury, Venus, Earth",
+    "rejected": "Mercury, Venus, Earth More explanation here."
+  },
+  {
+    "prompt": "Respond with a number between 1 and 10 inclusive.",
+    "chosen": "6",
+    "rejected": "6 More explanation here."
+  },
+  {
+    "prompt": "Give a short phrase that ends in 'smoothly.'",
+    "chosen": "The engine runs smoothly.",
+    "rejected": "The engine runs smoothly. Additional note."
+  },
+  {
+    "prompt": "Use 'CLUE:' followed by one abstract noun.",
+    "chosen": "CLUE: honesty",
+    "rejected": "The output is CLUE: honesty"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about air travel.",
+    "chosen": "Do airplanes fly at high altitudes?",
+    "rejected": "Do airplanes fly at high altitudes? More explanation here."
+  },
+  {
+    "prompt": "Reply with one punctuation mark that ends a sentence.",
+    "chosen": ".",
+    "rejected": ". Additional note."
+  },
+  {
+    "prompt": "Return a five-character alphanumeric code.",
+    "chosen": "X7A4C",
+    "rejected": "X7a4c word."
+  },
+  {
+    "prompt": "Write a short line describing snow without using 'white'.",
+    "chosen": "It blankets the ground silently.",
+    "rejected": "It blankets the ground silently. Additional note."
+  },
+  {
+    "prompt": "Replace the tag STATUS: with a one-word system state.",
+    "chosen": "STATUS: rebooting",
+    "rejected": "The output is STATUS: rebooting"
+  },
+  {
+    "prompt": "Provide a JSON with 'checked' set to false.",
+    "chosen": "{\"checked\": false}",
+    "rejected": "Here is your JSON: {\"checked\": false}"
+  },
+  {
+    "prompt": "Give a one-word synonym for 'happy'.",
+    "chosen": "Glad",
+    "rejected": "Glad More explanation here."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about animals and behavior.",
+    "chosen": "Do dolphins communicate with sounds?",
+    "rejected": "Do dolphins communicate with sounds? More explanation here."
+  },
+  {
+    "prompt": "Use 'Output:' and a percentage value.",
+    "chosen": "Output: 89%",
+    "rejected": "The output is Output: 89%"
+  },
+  {
+    "prompt": "Return a binary number of 4 digits.",
+    "chosen": "1101",
+    "rejected": "1101 More explanation here."
+  },
+  {
+    "prompt": "Reply with 'Mode:' and a mode from [safe, debug, production].",
+    "chosen": "Mode: debug",
+    "rejected": "The output is Mode: debug"
+  },
+  {
+    "prompt": "Give a one-word question starting word.",
+    "chosen": "Why",
+    "rejected": "Why More explanation here."
+  },
+  {
+    "prompt": "Respond using only a mathematical symbol.",
+    "chosen": "+",
+    "rejected": "+ More explanation here."
+  },
+  {
+    "prompt": "Write a sentence about heat ending in 'quickly.'",
+    "chosen": "Heat spread through the room quickly.",
+    "rejected": "Heat spread through the room quickly. Additional note."
+  },
+  {
+    "prompt": "List three body parts.",
+    "chosen": "arm, leg, head",
+    "rejected": "Arm, leg, head word."
+  },
+  {
+    "prompt": "Provide a short definition for 'cloud'.",
+    "chosen": "A visible mass of condensed water vapor.",
+    "rejected": "A visible mass of condensed water vapor. Additional note."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about Mars.",
+    "chosen": "Is Mars called the red planet?",
+    "rejected": "Is Mars called the red planet? More explanation here."
+  },
+  {
+    "prompt": "Use the tag TYPE: followed by one of [integer, string].",
+    "chosen": "TYPE: string",
+    "rejected": "The output is TYPE: string"
+  },
+  {
+    "prompt": "Output a sentence about reading that ends in 'daily.'",
+    "chosen": "She reads mystery novels daily.",
+    "rejected": "She reads mystery novels daily. Additional note."
+  },
+  {
+    "prompt": "Give a two-word phrase describing cold weather.",
+    "chosen": "Freezing winds",
+    "rejected": "Freezing winds More explanation here."
+  },
+  {
+    "prompt": "Return a list of fruits using JSON array format.",
+    "chosen": "[\"apple\", \"peach\", \"grape\"]",
+    "rejected": "[\"apple\", \"peach\", \"grape\"] word."
+  },
+  {
+    "prompt": "Provide a command that begins with 'Execute:'",
+    "chosen": "Execute: compile",
+    "rejected": "The output is Execute: compile"
+  },
+  {
+    "prompt": "Use only a three-digit number in your answer.",
+    "chosen": "314",
+    "rejected": "314 More explanation here."
+  },
+  {
+    "prompt": "Write a question about seasons.",
+    "chosen": "Is winter colder than spring?",
+    "rejected": "Is winter colder than spring? More explanation here."
+  },
+  {
+    "prompt": "List two hobbies separated by a slash.",
+    "chosen": "painting/dancing",
+    "rejected": "Painting/dancing word."
+  },
+  {
+    "prompt": "Use 'Label:' followed by one of [test, live].",
+    "chosen": "Label: test",
+    "rejected": "The output is Label: test"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about books.",
+    "chosen": "Is '1984' written by Orwell?",
+    "rejected": "Is '1984' written by Orwell? More explanation here."
+  },
+  {
+    "prompt": "Respond with one of [true, false].",
+    "chosen": "true",
+    "rejected": "True word."
+  },
+  {
+    "prompt": "Give a lowercase name of a fruit.",
+    "chosen": "kiwi",
+    "rejected": "Kiwi word."
+  },
+  {
+    "prompt": "Write a sentence ending in 'gently.'",
+    "chosen": "He closed the door gently.",
+    "rejected": "He closed the door gently. Additional note."
+  },
+  {
+    "prompt": "Provide a JSON with key 'attempts' and value 3.",
+    "chosen": "{\"attempts\": 3}",
+    "rejected": "Here is your JSON: {\"attempts\": 3}"
+  },
+  {
+    "prompt": "Use 'CLUE:' followed by a single color.",
+    "chosen": "CLUE: red",
+    "rejected": "The output is CLUE: red"
+  },
+  {
+    "prompt": "Respond with one country name in uppercase.",
+    "chosen": "CANADA",
+    "rejected": "Canada word."
+  },
+  {
+    "prompt": "Provide a one-word synonym for 'begin'.",
+    "chosen": "Start",
+    "rejected": "Start More explanation here."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about color perception.",
+    "chosen": "Can dogs see in color?",
+    "rejected": "Can dogs see in color? More explanation here."
+  },
+  {
+    "prompt": "Replace the tag TEMP: with a Celsius temperature.",
+    "chosen": "TEMP: 23\u00b0C",
+    "rejected": "The output is TEMP: 23\u00b0C"
+  },
+  {
+    "prompt": "Output a one-digit odd number.",
+    "chosen": "9",
+    "rejected": "9 More explanation here."
+  },
+  {
+    "prompt": "Use 'STATE:' followed by a US state name.",
+    "chosen": "STATE: Texas",
+    "rejected": "The output is STATE: Texas"
+  },
+  {
+    "prompt": "Give a synonym for 'large' in one word.",
+    "chosen": "Huge",
+    "rejected": "Huge More explanation here."
+  },
+  {
+    "prompt": "Ask a yes-or-no question involving numbers.",
+    "chosen": "Is 5 a prime number?",
+    "rejected": "Is 5 a prime number? More explanation here."
+  },
+  {
+    "prompt": "Use 'Phase:' and one step of development.",
+    "chosen": "Phase: testing",
+    "rejected": "The output is Phase: testing"
+  },
+  {
+    "prompt": "Provide a JSON object with 'user' and 'active': true.",
+    "chosen": "{\"user\": \"admin\", \"active\": true}",
+    "rejected": "Here is your JSON: {\"user\": \"admin\", \"active\": true}"
+  },
+  {
+    "prompt": "Use 'Guess:' followed by your answer (single word only).",
+    "chosen": "Guess: ladder",
+    "rejected": "The output is Guess: ladder"
+  },
+  {
+    "prompt": "List two programming languages.",
+    "chosen": "Python, Go",
+    "rejected": "Python, Go More explanation here."
+  },
+  {
+    "prompt": "Respond with a temperature in Fahrenheit format.",
+    "chosen": "68\u00b0F",
+    "rejected": "68\u00b0f word."
+  },
+  {
+    "prompt": "Use 'KEY:' followed by a keyboard character.",
+    "chosen": "KEY: Tab",
+    "rejected": "The output is KEY: Tab"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about animals\u2019 speed.",
+    "chosen": "Are cheetahs the fastest land animals?",
+    "rejected": "Are cheetahs the fastest land animals? More explanation here."
+  },
+  {
+    "prompt": "Give a one-word adjective for taste.",
+    "chosen": "Spicy",
+    "rejected": "Spicy More explanation here."
+  },
+  {
+    "prompt": "Return a JSON with fields 'file' and 'size' in MB.",
+    "chosen": "{\"file\": \"report.txt\", \"size\": 1.2}",
+    "rejected": "Here is your JSON: {\"file\": \"report.txt\", \"size\": 1.2}"
+  },
+  {
+    "prompt": "Write a 3-word sentence using only nouns.",
+    "chosen": "Dog tree cloud",
+    "rejected": "Dog tree cloud More explanation here."
+  },
+  {
+    "prompt": "Use 'MARK:' followed by an exam score.",
+    "chosen": "MARK: 85",
+    "rejected": "The output is MARK: 85"
+  },
+  {
+    "prompt": "Respond with a single lowercase verb.",
+    "chosen": "run",
+    "rejected": "Run word."
+  },
+  {
+    "prompt": "Replace the tag MATERIAL: with one of [wood, steel].",
+    "chosen": "MATERIAL: steel",
+    "rejected": "The output is MATERIAL: steel"
+  },
+  {
+    "prompt": "Return a JSON array of odd numbers.",
+    "chosen": "[1, 3, 5]",
+    "rejected": "[1, 3, 5] More explanation here."
+  },
+  {
+    "prompt": "Give a short warning using 'Caution:'",
+    "chosen": "Caution: wet floor",
+    "rejected": "The output is Caution: wet floor"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about humans.",
+    "chosen": "Do humans have 206 bones?",
+    "rejected": "Do humans have 206 bones? More explanation here."
+  },
+  {
+    "prompt": "Describe the object 'submarine' (forbidden words: water, sea, dive).",
+    "chosen": "It's a vehicle designed to operate below the surface.",
+    "rejected": "It's a vehicle designed to operate below the surface. Additional note."
+  },
+  {
+    "prompt": "Give the next 3 moves to reach the fortress, each on a new line.",
+    "chosen": "1. Walk past the old windmill.\n2. Cross the wooden bridge.\n3. Turn right at the tall pine.",
+    "rejected": "1. Walk past the old windmill.\n2. Cross the wooden bridge.\n3. Turn right at the tall pine. Additional note."
+  },
+  {
+    "prompt": "I'll handle this round. Don't suggest anything until I request help.",
+    "chosen": "Understood. I\u2019ll stay silent until you ask.",
+    "rejected": "Understood. I\u2019ll stay silent until you ask. Additional note."
+  },
+  {
+    "prompt": "End your guidance with the phrase 'Mission complete.'",
+    "chosen": "Climb to the second tower, and the switch will be behind the door. Mission complete.",
+    "rejected": "Climb to the second tower, and the switch will be behind the door. Mission complete. Additional note."
+  },
+  {
+    "prompt": "Provide a description of 'helicopter' without using: rotor, blades, or fly.",
+    "chosen": "It is a machine that lifts off vertically and hovers in the air.",
+    "rejected": "It is a machine that lifts off vertically and hovers in the air. Additional note."
+  },
+  {
+    "prompt": "RiddleMe: You're the quizmaster. Ask a riddle prefaced by your role.",
+    "chosen": "Quizmaster: What has keys but can't open locks?",
+    "rejected": "The output is Quizmaster: What has keys but can't open locks?"
+  },
+  {
+    "prompt": "You're the navigator. Provide a direction sequence in JSON format (N, S, E, W).",
+    "chosen": "[\"W\", \"S\", \"S\", \"E\"]",
+    "rejected": "[\"w\", \"s\", \"s\", \"e\"] word."
+  },
+  {
+    "prompt": "You may only respond with a single-word clue about the sky.",
+    "chosen": "Cloud",
+    "rejected": "Cloud More explanation here."
+  },
+  {
+    "prompt": "Player: How do I reach the harbor? (Answer must begin with 'Route:')",
+    "chosen": "Route: Head east past the lighthouse, then follow the road to the dock.",
+    "rejected": "Route: Head east past the lighthouse, then follow the road to the dock. Additional note."
+  },
+  {
+    "prompt": "Show the sequence of 4 steps to reach the crypt, each on its own line.",
+    "chosen": "1. Enter through the iron gate.\n2. Go down the spiral staircase.\n3. Open the stone door.\n4. Light the wall torch.",
+    "rejected": "1. Enter through the iron gate.\n2. Go down the spiral staircase.\n3. Open the stone door.\n4. Light the wall torch. Additional note."
+  },
+  {
+    "prompt": "Provide the 2 final steps to complete the puzzle, one per line.",
+    "chosen": "1. Insert the golden key.\n2. Pull the lever behind the statue.",
+    "rejected": "1. Insert the golden key.\n2. Pull the lever behind the statue. Additional note."
+  },
+  {
+    "prompt": "Roleplay: You're the gatekeeper. State the condition to enter.",
+    "chosen": "Gatekeeper: Only those who solve the riddle may pass.",
+    "rejected": "Gatekeeper: Only those who solve the riddle may pass. Additional note."
+  },
+  {
+    "prompt": "Describe the clue 'volcano' (forbidden words: lava, eruption, fire).",
+    "chosen": "It's a mountain that occasionally releases pressure and material from inside the Earth.",
+    "rejected": "It's a mountain that occasionally releases pressure and material from inside the Earth. Additional note."
+  },
+  {
+    "prompt": "End your answer with 'Checkpoint passed.'",
+    "chosen": "Turn left past the statues. Checkpoint passed.",
+    "rejected": "Turn left past the statues. Checkpoint passed. Additional note."
+  },
+  {
+    "prompt": "Send JSON coordinates to the enemy base.",
+    "chosen": "[\"N\", \"E\", \"N\", \"W\"]",
+    "rejected": "[\"n\", \"e\", \"n\", \"w\"] word."
+  },
+  {
+    "prompt": "Use only one word to hint at something cold.",
+    "chosen": "Ice",
+    "rejected": "Ice More explanation here."
+  },
+  {
+    "prompt": "Only respond using a valid day of the week.",
+    "chosen": "Thursday",
+    "rejected": "Thursday More explanation here."
+  },
+  {
+    "prompt": "Provide a single-word hint about books.",
+    "chosen": "Library",
+    "rejected": "Library More explanation here."
+  },
+  {
+    "prompt": "RouteMaster: Explain how to reach the canyon (start with 'Route:').",
+    "chosen": "Route: Head west through the pass, then descend into the valley.",
+    "rejected": "Route: Head west through the pass, then descend into the valley. Additional note."
+  },
+  {
+    "prompt": "I\u2019m exploring first. Don\u2019t suggest anything until I ask.",
+    "chosen": "Got it. I\u2019ll wait for your signal.",
+    "rejected": "Got it. I\u2019ll wait for your signal. Additional note."
+  },
+  {
+    "prompt": "Use the tag NOTICE: followed by a single alert word.",
+    "chosen": "NOTICE: danger",
+    "rejected": "NOTICE: danger, definitely."
+  },
+  {
+    "prompt": "Use the tag STATUS: followed by 'online' or 'offline'.",
+    "chosen": "STATUS: online",
+    "rejected": "The output is STATUS: online"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about the moon.",
+    "chosen": "Is the moon tidally locked?",
+    "rejected": "Is the moon tidally locked? More explanation here."
+  },
+  {
+    "prompt": "Respond with only a temperature in Celsius.",
+    "chosen": "18\u00b0C",
+    "rejected": "18\u00b0c word."
+  },
+  {
+    "prompt": "Provide a one-word answer about the sky.",
+    "chosen": "Blue",
+    "rejected": "Blue More explanation here."
+  },
+  {
+    "prompt": "End your statement with 'Confirmed.'",
+    "chosen": "The device is active. Confirmed.",
+    "rejected": "The device is active. Confirmed. Additional note."
+  },
+  {
+    "prompt": "Give a JSON with 'speed' and 'unit'.",
+    "chosen": "{\"speed\": 45, \"unit\": \"km/h\"}",
+    "rejected": "Here is your JSON: {\"speed\": 45, \"unit\": \"km/h\"}"
+  },
+  {
+    "prompt": "Reply with a three-word phrase describing wind.",
+    "chosen": "Cold, strong, invisible",
+    "rejected": "Cold, strong, invisible More explanation here."
+  },
+  {
+    "prompt": "Use 'Warning:' and one weather condition.",
+    "chosen": "Warning: storm",
+    "rejected": "The output is Warning: storm"
+  },
+  {
+    "prompt": "List two fruits separated by slash.",
+    "chosen": "apple/pear",
+    "rejected": "Apple/pear word."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about reading.",
+    "chosen": "Is fiction different from nonfiction?",
+    "rejected": "Is fiction different from nonfiction? More explanation here."
+  },
+  {
+    "prompt": "Give a command using 'Command:' and a verb.",
+    "chosen": "Command: stop",
+    "rejected": "The output is Command: stop"
+  },
+  {
+    "prompt": "Reply with one of the directions: N, S, E, W.",
+    "chosen": "E",
+    "rejected": "E word."
+  },
+  {
+    "prompt": "Respond using 'Signal:' and a color.",
+    "chosen": "Signal: green",
+    "rejected": "The output is Signal: green"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about sound.",
+    "chosen": "Can whales hear each other?",
+    "rejected": "Can whales hear each other? More explanation here."
+  },
+  {
+    "prompt": "Write a sentence ending in 'gracefully.'",
+    "chosen": "The dancer moved gracefully.",
+    "rejected": "The dancer moved gracefully. Additional note."
+  },
+  {
+    "prompt": "Respond with only a valid file extension.",
+    "chosen": ".zip",
+    "rejected": ".zip word."
+  },
+  {
+    "prompt": "Provide a JSON with 'completed' set to true.",
+    "chosen": "{\"completed\": true}",
+    "rejected": "Here is your JSON: {\"completed\": true}"
+  },
+  {
+    "prompt": "Give a one-word description of heat.",
+    "chosen": "Hot",
+    "rejected": "Hot More explanation here."
+  },
+  {
+    "prompt": "Use the tag TAG: followed by a short label.",
+    "chosen": "TAG: mission",
+    "rejected": "The output is TAG: mission"
+  },
+  {
+    "prompt": "Write a question about science in past tense.",
+    "chosen": "Did Einstein develop relativity?",
+    "rejected": "Did Einstein develop relativity? More explanation here."
+  },
+  {
+    "prompt": "Provide a three-step plan for preparing tea, each step on a new line.",
+    "chosen": "1. Boil water.\n2. Steep the tea bag.\n3. Pour into a cup.",
+    "rejected": "1. Boil water.\n2. Steep the tea bag.\n3. Pour into a cup. Additional note."
+  },
+  {
+    "prompt": "Describe the word 'spaceship' without using 'space', 'ship', or 'rocket'.",
+    "chosen": "A vehicle designed for travel beyond the Earth's atmosphere.",
+    "rejected": "A vehicle designed for travel beyond the Earth's atmosphere. Additional note."
+  },
+  {
+    "prompt": "Only answer using a JSON array of even numbers.",
+    "chosen": "[2, 4, 6]",
+    "rejected": "[2, 4, 6] More explanation here."
+  },
+  {
+    "prompt": "Codenames: You're the analyst. Prefix your clue with 'Analyst:'.",
+    "chosen": "Analyst: Signal 3",
+    "rejected": "The output is Analyst: Signal 3"
+  },
+  {
+    "prompt": "Respond with only one word that represents movement.",
+    "chosen": "Slide",
+    "rejected": "Slide More explanation here."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about books and authors.",
+    "chosen": "Did Tolkien write The Hobbit?",
+    "rejected": "Did Tolkien write The Hobbit? More explanation here."
+  },
+  {
+    "prompt": "Use 'Status:' followed by a one-word system state.",
+    "chosen": "Status: idle",
+    "rejected": "The output is Status: idle"
+  },
+  {
+    "prompt": "List three colors separated by commas.",
+    "chosen": "blue, yellow, red",
+    "rejected": "Blue, yellow, red word."
+  },
+  {
+    "prompt": "End your output with 'Objective complete.'",
+    "chosen": "Travel north two blocks and locate the tower. Objective complete.",
+    "rejected": "Travel north two blocks and locate the tower. Objective complete. Additional note."
+  },
+  {
+    "prompt": "Provide the next 4 actions to reach the gate, one per line.",
+    "chosen": "1. Exit the building.\n2. Head east.\n3. Cross the river.\n4. Climb the hill.",
+    "rejected": "1. Exit the building.\n2. Head east.\n3. Cross the river.\n4. Climb the hill. Additional note."
+  },
+  {
+    "prompt": "Describe the object 'glider' (forbidden words: fly, air, wings).",
+    "chosen": "It is a lightweight device that moves through the sky without a motor.",
+    "rejected": "It is a lightweight device that moves through the sky without a motor. Additional note."
+  },
+  {
+    "prompt": "Use the tag RESULT: and a binary value.",
+    "chosen": "RESULT: 1010",
+    "rejected": "RESULT is 1010 please."
+  },
+  {
+    "prompt": "Navigator: Indicate the direction to the ruin, beginning with 'Route:'.",
+    "chosen": "Route: Go west through the forest, then cross the ravine.",
+    "rejected": "Route: Go west through the forest, then cross the ravine. Additional note."
+  },
+  {
+    "prompt": "Only give a one-word hint related to fire.",
+    "chosen": "Blaze",
+    "rejected": "Blaze More explanation here."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about physical science.",
+    "chosen": "Does pressure increase with depth?",
+    "rejected": "Does pressure increase with depth? More explanation here."
+  },
+  {
+    "prompt": "Write a command using 'Initiate:' followed by a task name.",
+    "chosen": "Initiate: scan",
+    "rejected": "The output is Initiate: scan"
+  },
+  {
+    "prompt": "Respond with a sentence ending in 'intentionally.'",
+    "chosen": "The message was encrypted intentionally.",
+    "rejected": "The message was encrypted intentionally. Additional note."
+  },
+  {
+    "prompt": "Provide a dictionary with 'alert' and 'priority' fields.",
+    "chosen": "{\"alert\": \"sensor triggered\", \"priority\": \"high\"}",
+    "rejected": "Here is your JSON: {\"alert\": \"sensor triggered\", \"priority\": \"high\"}"
+  },
+  {
+    "prompt": "Provide a JSON array of direction commands.",
+    "chosen": "[\"E\", \"S\", \"E\", \"N\"]",
+    "rejected": "[\"e\", \"s\", \"e\", \"n\"] word."
+  },
+  {
+    "prompt": "Only output the tag 'DONE' preceded by a final step sentence.",
+    "chosen": "Deploy the beacon. DONE",
+    "rejected": "Deploy the beacon. DONE More explanation here."
+  },
+  {
+    "prompt": "Use the tag 'Mode:' followed by a game mode.",
+    "chosen": "Mode: stealth",
+    "rejected": "The output is Mode: stealth"
+  },
+  {
+    "prompt": "Return only the number of hours in a week.",
+    "chosen": "168",
+    "rejected": "168 More explanation here."
+  },
+  {
+    "prompt": "Reply with one-word representing water.",
+    "chosen": "River",
+    "rejected": "River More explanation here."
+  },
+  {
+    "prompt": "Give a JSON with 'role' and 'active'.",
+    "chosen": "{\"role\": \"admin\", \"active\": true}",
+    "rejected": "Here is your JSON: {\"role\": \"admin\", \"active\": true}"
+  },
+  {
+    "prompt": "Ask a yes-or-no question about movement.",
+    "chosen": "Can cheetahs run over 100 km/h?",
+    "rejected": "Can cheetahs run over 100 km/h? More explanation here."
+  },
+  {
+    "prompt": "End your message with 'Step complete.'",
+    "chosen": "You have navigated the hallway. Step complete.",
+    "rejected": "You have navigated the hallway. Step complete. Additional note."
+  },
+  {
+    "prompt": "Reply with a command starting 'Execute:'",
+    "chosen": "Execute: reload",
+    "rejected": "The output is Execute: reload"
+  },
+  {
+    "prompt": "Respond with a time of day in HH:MM format.",
+    "chosen": "09:15",
+    "rejected": "The output is 09:15"
+  },
+  {
+    "prompt": "List three countries in South America.",
+    "chosen": "Brazil, Argentina, Chile",
+    "rejected": "Brazil, Argentina, Chile More explanation here."
+  },
+  {
+    "prompt": "Answer with only a valid hexadecimal digit.",
+    "chosen": "F",
+    "rejected": "F word."
+  },
+  {
+    "prompt": "Use the tag 'Result:' followed by a measurement.",
+    "chosen": "Result: 42cm",
+    "rejected": "Result is 42cm please."
+  },
+  {
+    "prompt": "Provide a one-word hint about snow.",
+    "chosen": "Powder",
+    "rejected": "Powder More explanation here."
+  },
+  {
+    "prompt": "Describe the object 'hot air balloon' without using 'hot', 'air', or 'balloon'.",
+    "chosen": "A craft that floats by heating gas to lift off.",
+    "rejected": "A craft that floats by heating gas to lift off. Additional note."
+  },
+  {
+    "prompt": "Give a three-step escape plan, each step on a new line.",
+    "chosen": "1. Unlock the hatch.\n2. Use the rope.\n3. Climb down carefully.",
+    "rejected": "1. Unlock the hatch.\n2. Use the rope.\n3. Climb down carefully. Additional note."
+  },
+  {
+    "prompt": "Cluemaster: Give a clue prefaced by your role and one word.",
+    "chosen": "Cluemaster: Storm",
+    "rejected": "The output is Cluemaster: Storm"
+  },
+  {
+    "prompt": "Reply with a valid Unix file permission in symbolic format.",
+    "chosen": "rwxr-xr--",
+    "rejected": "Rwxr-xr-- word."
+  },
+  {
+    "prompt": "List two programming concepts.",
+    "chosen": "recursion, iteration",
+    "rejected": "Recursion, iteration word."
+  },
+  {
+    "prompt": "Provide a four-digit year in the past.",
+    "chosen": "1995",
+    "rejected": "1995 More explanation here."
+  },
+  {
+    "prompt": "Ask a yes-or-no question about AI systems.",
+    "chosen": "Can AI detect patterns?",
+    "rejected": "Can AI detect patterns? More explanation here."
+  },
+  {
+    "prompt": "Use 'Checkpoint:' and a short phrase.",
+    "chosen": "Checkpoint: entered safe zone",
+    "rejected": "The output is Checkpoint: entered safe zone"
+  }
+]
