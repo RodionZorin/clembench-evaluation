@@ -2493,7 +2493,7 @@
     "prompt": "Use 'Checkpoint:' and a short phrase.",
     "chosen": "Checkpoint: entered safe zone",
     "rejected": "The output is Checkpoint: entered safe zone"
-  }
+  },
   {
     "prompt": "Only respond with a JSON array of three tools.",
     "chosen": "[\"hammer\", \"screwdriver\", \"pliers\"]",
