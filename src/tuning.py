@@ -106,14 +106,15 @@ if tuning == 'sft':
     #     bnb_4bit_compute_dtype=torch.float16,
     #     )
 
-    train_dataset = load_dataset(sft_dataset_name, split="train")
+    #train_dataset = load_dataset(sft_dataset_name, split="train")
+    train_dataset = load_dataset("json", data_files=sft_dataset_name)["train"]
 
     EOS_TOKEN = tokenizer.eos_token # Must add EOS_TOKEN
     def formatting_func(examples):
         messages = examples["messages"]
         texts = [
-            "".join([m["content"].strip() + "\n" for m in convo]).strip() for convo in messages
-        ] + EOS_TOKEN
+            "".join([m["content"].strip() + "\n" for m in convo]).strip() + EOS_TOKEN for convo in messages
+        ]
         return {"text": texts}
 
     train_dataset = train_dataset.map(formatting_func, batched=True)
