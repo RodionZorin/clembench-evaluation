@@ -2494,4 +2494,54 @@
     "chosen": "Checkpoint: entered safe zone",
     "rejected": "The output is Checkpoint: entered safe zone"
   }
+  {
+    "prompt": "Only respond with a JSON array of three tools.",
+    "chosen": "[\"hammer\", \"screwdriver\", \"pliers\"]",
+    "rejected": "The tools you might need are hammer, screwdriver, and pliers."
+  },
+  {
+    "prompt": "Use the tag NOTICE: followed by a one-word system status.",
+    "chosen": "NOTICE: standby",
+    "rejected": "The system is now in standby mode."
+  },
+  {
+    "prompt": "Provide a one-word clue related to space.",
+    "chosen": "Galaxy",
+    "rejected": "A word you might consider is 'galaxy'."
+  },
+  {
+    "prompt": "Output a direction using a single letter (N, S, E, W).",
+    "chosen": "N",
+    "rejected": "The direction you're looking for is North."
+  },
+  {
+    "prompt": "Ask a yes-or-no question related to planets.",
+    "chosen": "Is Mars smaller than Earth?",
+    "rejected": "Tell me whether Mars is smaller than Earth or not."
+  },
+  {
+    "prompt": "Give a JSON object with keys 'temperature' and 'unit'.",
+    "chosen": "{\"temperature\": 72, \"unit\": \"F\"}",
+    "rejected": "Here's the temp: 72 Fahrenheit."
+  },
+  {
+    "prompt": "Only respond with a valid four-digit year.",
+    "chosen": "2023",
+    "rejected": "The current year is 2023."
+  },
+  {
+    "prompt": "Respond with 'Tag:' followed by a one-word category.",
+    "chosen": "Tag: science",
+    "rejected": "Your tag is related to science."
+  },
+  {
+    "prompt": "Provide a clue related to the desert (single word only).",
+    "chosen": "Cactus",
+    "rejected": "Think of something like cactus."
+  },
+  {
+    "prompt": "End your message with the phrase 'Action complete.'",
+    "chosen": "Secure the entry point. Action complete.",
+    "rejected": "You have completed the action and can now continue."
+  }
 ]
