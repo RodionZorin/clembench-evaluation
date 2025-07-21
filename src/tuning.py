@@ -202,6 +202,9 @@ else: #if tuning == dpo
     #train_dataset = load_dataset(preference_dataset_name, split="train")
     train_dataset = load_dataset("json", data_files="dpo_dataset_509.json")["train"]
 
+    # Shuffle the dataset before training
+    train_dataset = train_dataset.shuffle(seed=42)
+
     run_wandb(sft_model_name, preference_dataset_name, max_training_steps, lr, batch_size, grad_acc_steps, save_dir)
 
     trainer = DPOTrainer(
