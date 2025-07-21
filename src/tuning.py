@@ -200,7 +200,7 @@ else: #if tuning == dpo
     #)   
     
     #train_dataset = load_dataset(preference_dataset_name, split="train")
-    train_dataset = load_dataset("json", data_files="dpo_dataset_509.json")["train"]
+    train_dataset = load_dataset("json", data_files=preference_dataset_name)["train"]
 
     # Shuffle the dataset before training
     train_dataset = train_dataset.shuffle(seed=42)
